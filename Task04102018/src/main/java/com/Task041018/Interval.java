@@ -15,9 +15,9 @@ public class Interval {
         if (end<start){
             throw new IllegalArgumentException();
         }
-        lenght = end- start+1;
+        lenght = end - start+1;
     }
-    public int getStart(){
+    public int getStart() {
         return start;
     }
     public int getEnd() {
