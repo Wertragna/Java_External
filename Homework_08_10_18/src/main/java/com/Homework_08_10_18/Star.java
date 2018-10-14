@@ -1,21 +1,19 @@
-package com.Task081018;
+package com.Homework_08_10_18;
 
-public class Moon {
-    public Moon(String moonName, Planet planet) {
-        name = moonName;
-        this.planet =planet;
+public class Star {
+    public Star(String starName) {
+        name=starName;
     }
-    private String name;
-    private  Planet planet;
 
     public String getName() {
         return name;
     }
 
+    private String name;
 
     @Override
     public int hashCode() {
-        return 31*planet.hashCode()+name.hashCode();
+        return name.hashCode();
     }
 
     @Override
@@ -29,11 +27,13 @@ public class Moon {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        Moon other =(Moon) obj;
-        if (!name.equals(other.name)) {
-            return false;
+        Star other =(Star)obj;
+        if(name == null){
+            if(other.name!=null) {
+                return false;
+            }
         }
-        if(!planet.equals(other.planet)) {
+        else if (!name.equals(other.name)) {
             return false;
         }
         return true;

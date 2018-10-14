@@ -1,4 +1,4 @@
-package com.Task081018;
+package com.Homework_08_10_18;
 
 public class Planet {
     public Planet(String planetName, double massKg, double radiusKm) {
