@@ -10,8 +10,8 @@ public class Number {
         if(value % 2 == 0) {
             isEven = true;
         }
-        else{
-            isEven= false;
+        else {
+            isEven = false;
         }
     }
 

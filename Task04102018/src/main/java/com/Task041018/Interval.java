@@ -12,10 +12,10 @@ public class Interval {
         start = scanner.nextInt();
         System.out.println("Enter end of the interval:");
         end = scanner.nextInt();
-        if (end<start){
+        if (end < start) {
             throw new IllegalArgumentException();
         }
-        lenght = end - start+1;
+        lenght = end - start + 1;
     }
     public int getStart() {
         return start;

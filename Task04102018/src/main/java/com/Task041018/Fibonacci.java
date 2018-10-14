@@ -16,7 +16,7 @@ public class Fibonacci {
         iFib = iFibNext - iFib;
         return new Number(iFib);
     }
-    public Fibonacci(){
+    public Fibonacci() {
         fibs = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nEnter size of set(N):");
@@ -26,16 +26,16 @@ public class Fibonacci {
         }
         init(sizeOfSet);
     }
-    private  void init(int sizeOfSet){
+    private  void init(int sizeOfSet) {
         iFibNext =0;
         iFib =1;
-        for (int i = 0;i<sizeOfSet;i++){
+        for (int i = 0; i < sizeOfSet; i++) {
             fibs.add(fib());
         }
     }
-    public void printMaxOddAndEvenFib(){
-        for(int i=fibs.size()-1; i>=0; --i){
-            if(fibs.get(i).isEven()){
+    public void printMaxOddAndEvenFib() {
+        for(int i = fibs.size() - 1; i >= 0; --i){
+            if(fibs.get(i).isEven()) {
                 System.out.println("The biggest even fibonacci number:"+ fibs.get(i).getValue());
                 break;
             }
