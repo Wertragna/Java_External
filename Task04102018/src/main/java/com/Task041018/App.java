@@ -1,7 +1,7 @@
 package com.Task041018;
 
 /**
- * Hello world!
+ * Hello Fibonacci!
  *
  */
 public final class App {

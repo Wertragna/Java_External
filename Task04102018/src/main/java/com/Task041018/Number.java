@@ -5,10 +5,10 @@ public class Number {
     private int value;
     private boolean isEven;
 
-    public Number(int number){
+    public Number(int number) {
         value = number;
-        if(value%2==0){
-            isEven =true;
+        if(value % 2 == 0) {
+            isEven = true;
         }
         else{
             isEven= false;

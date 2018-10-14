@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*I don't really know what to fix here, so i'll just leave a comment here ;) */
+
 public class Fibonacci {
-    private static final int ONE_HUNDRED_PERCENT =100;
+    private static final int ONE_HUNDRED_PERCENT = 100;
     private int iFib;
     private int iFibNext;
     private List<Number> fibs;
@@ -19,7 +21,7 @@ public class Fibonacci {
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nEnter size of set(N):");
         int sizeOfSet = scanner.nextInt();
-        if(sizeOfSet<1){
+        if(sizeOfSet < 1){
             throw new IllegalArgumentException();
         }
         init(sizeOfSet);
