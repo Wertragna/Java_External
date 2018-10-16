@@ -2,9 +2,10 @@ package com.Homework_11_10_18;
 
 public class Plane extends Vehicle implements FlyAble {
     private int height;
-    private int numberOfpassengers;
+    private int numberOfPassengers;
 
     public int getHeight() {
+
         return height;
     }
 
@@ -12,11 +13,19 @@ public class Plane extends Vehicle implements FlyAble {
         this.height = height;
     }
 
-    public int getNumberOfpassengers() {
-        return numberOfpassengers;
+    public int getNumberOfPassengers() {
+        return numberOfPassengers;
     }
 
     public void setNumberOfpassengers(int numberOfpassengers) {
-        this.numberOfpassengers = numberOfpassengers;
+        this.numberOfPassengers = numberOfpassengers;
+    }
+
+    @Override
+    public String toString() {
+        return "Plane{" + super.toString()+
+                ", height=" + height +
+                ", numberOfpassengers=" + numberOfPassengers +
+                '}';
     }
 }

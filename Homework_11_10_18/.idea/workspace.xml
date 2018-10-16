@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a25e2cd-a17a-4687-a0a5-8daabf66c04a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task04102018/Task041018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task04102018/Homework_04_10_18.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task04102018/Task041018.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/../Task04102018/Task041018.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task04102018/Task041018.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../Task04102018/Task041018.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task04102018/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Task04102018/target/checkstyle-cachefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task04102018/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task04102018/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/Task081018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/Homework_08_10_18.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/src/main/java/com/Task081018/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/src/main/java/com/Homework_08_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/src/main/java/com/Task081018/Moon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/src/main/java/com/Homework_08_10_18/Moon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/src/main/java/com/Task081018/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/src/main/java/com/Homework_08_10_18/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/src/main/java/com/Task081018/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/src/main/java/com/Homework_08_10_18/Star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/src/main/java/com/Task081018/StarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/src/main/java/com/Homework_08_10_18/StarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task081018/src/test/java/com/Task081018/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task081018/src/test/java/com/Homework_08_10_18/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,38 +21,43 @@
     <session id="468271695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="176" />
+          <entry key="java" value="665" />
           <entry key="txt" value="105" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="176" />
+          <entry key="JAVA" value="665" />
           <entry key="PLAIN_TEXT" value="105" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="17" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="17" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/App.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,24 +67,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="296">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,17 +82,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="-51">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,10 +106,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/ListOfVehicleByFlyMoveSwim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="143">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,20 +126,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/MoveAble.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/SwimAble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="262">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +150,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/MoveAble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -192,20 +188,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/AmphibiousCar.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/BetMobile.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/ListOfVehicleByFlyMoveSwim.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="723" />
-    <option name="width" value="1206" />
-    <option name="height" value="1044" />
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
+    <option name="width" value="487" />
+    <option name="height" value="313" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,13 +255,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539536672905" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539722297955" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework_04_10_18" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,9 +311,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20890689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,10 +328,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.22267206" visible="true" weight="0.32924694" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.22214764" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Analysis" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.77732795" side_tool="true" visible="true" weight="0.32924694" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.77785236" side_tool="true" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49959514" weight="0.32924694" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -351,40 +352,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added classes and some functionality" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/MoveAble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/FlyAble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/SwimAble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -392,17 +359,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="-442">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/AmphibiousCar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        <state relative-caret-position="-10">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -413,10 +380,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/MoveAble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/ListOfVehicleByFlyMoveSwim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/FlyAble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -427,23 +421,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/AmphibiousCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="34">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
