@@ -21,7 +21,7 @@ public class VehicleFinder {
         final int MIN_SPEED = 200;
 
         List<Vehicle> res = new ArrayList(vehicles);
-        res.removeIf(v -> !(!(v instanceof Plane) && v.getSpeed()>=MIN_SPEED&&v.getSpeed()<=500));
+        res.removeIf(v -> !(!(v instanceof Plane) && v.getSpeed()>=MIN_SPEED&&v.getSpeed()<=MAX_SPEED));
         return res;
     }
 
