@@ -5,9 +5,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class ListOfVehicleByFlyMoveSwim {
-    public List<FlyAble> flyAbles;
-    public List<MoveAble> moveAbles;
-    public List<SwimAble> swimAbles;
+    public List<Vehicle> flyAbles = new ArrayList<>();
+    public List<Vehicle> moveAbles = new ArrayList<>();
+    public List<Vehicle> swimAbles = new ArrayList<>();
 
     @Override
     public String toString() {

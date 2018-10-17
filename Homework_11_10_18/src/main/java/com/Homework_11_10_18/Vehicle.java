@@ -8,6 +8,8 @@ public abstract class Vehicle {
     private int speed;
     private int yearOfManufacture;
 
+    
+
     public BigDecimal getPrice() {
         return price;
     }
@@ -39,5 +41,15 @@ public abstract class Vehicle {
                 ", speed=" + speed +
                 ", yearOfManufacture=" + yearOfManufacture +
                 '}';
+    }
+
+    @Override
+    protected Vehicle clone() {
+        try{
+            return (Vehicle)super.clone();
+        }
+        catch (CloneNotSupportedException exc) {
+            throw new AssertionError();
+        }
     }
 }
