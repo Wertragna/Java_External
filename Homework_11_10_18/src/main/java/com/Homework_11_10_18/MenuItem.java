@@ -20,7 +20,7 @@ public enum MenuItem {
             for(com.Homework_11_10_18.MenuItem v : values())
                 if(v.getId()==value)
                     return v;
-            throw new IllegalArgumentException();
+            throw new IllegalItemOfMenu("Wrong menu item.");
         }
     }
 

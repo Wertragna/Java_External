@@ -26,10 +26,6 @@ public class View {
     }
 
     public void showMenu(){
-       // for(MenuItem item: MenuItem.values()){
-     //       System.out.println(""+item.getId()+" "+item);
-     //   }
-
         System.out.println(resourceBundle.getString("label.menuItem1"));
         System.out.println(resourceBundle.getString("label.menuItem2"));
         System.out.println(resourceBundle.getString("label.menuItem3"));
@@ -40,6 +36,4 @@ public class View {
     public void showItem( Object obj){
         System.out.println(obj);
     }
-
-
 }

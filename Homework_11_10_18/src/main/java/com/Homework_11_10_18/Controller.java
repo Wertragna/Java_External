@@ -80,6 +80,10 @@ public class Controller {
         catch (IllegalArgumentException e) {
             logger.error(e.getMessage());
         }
+        catch (IllegalItemOfMenu e){
+            logger.error(e.getMessage());
+        }
+
         return true;
     }
     private boolean menu(Scanner sr) {

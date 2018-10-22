@@ -17,35 +17,6 @@ public class Model {
         vehicleList.add(vehicle);
     }
 
-    public void addCar(int speed, int yearOfManufacture, BigDecimal price){
-        Vehicle car = new Car(speed,yearOfManufacture,price);
-        vehicleList.add(car);
-    }
-
-    public void addPlane(int speed, int yearOfManufacture, BigDecimal price, int numberOfPassengers, int height ){
-        Vehicle plane =  new Plane.PlaneBuilder(speed,yearOfManufacture, price)
-                .numberOfPassengers(numberOfPassengers)
-                .height(height)
-                .build();
-    }
-
-    public  void  addShip(int speed, int yearOfManufacture, BigDecimal price, int numberOfPassengers, int port ){
-    Vehicle ship =new  Ship.ShipBuilder(speed, yearOfManufacture, price)
-            .numberOfPassengers(numberOfPassengers)
-                .port(port)
-                .build();
-    }
-
-    public void addBetMobile(int speed, int yearOfManufacture, BigDecimal price){
-        Vehicle betMobile = new BetMobile(speed,yearOfManufacture,price);
-        vehicleList.add(betMobile);
-    }
-
-    public void addAmphibiousCar(int speed, int yearOfManufacture, BigDecimal price){
-        Vehicle amphibiousCar = new AmphibiousCar(speed,yearOfManufacture,price);
-        vehicleList.add(amphibiousCar);
-    }
-
     public List<Vehicle> getPlanesWithHeightMoreThanXYearOfManufactureAfterY(int xHeignt, int yYears) {
         return VehicleFinder.getPlanesWithHeightMoreThanXYearOfManufactureAfterY( vehicleList,xHeignt,yYears);
     }
@@ -59,6 +30,3 @@ public class Model {
         return VehicleFinder.getWithMinPriceAndMaxSpeedYoungerThanXYears(vehicleList,ageLimit);
     }
 }
-   /* public List <Vehicle> getVehicleWithSpeedMoreThanX(int xSpeed) {
-        return VehicleFinder.(vehicleList,xSpeed);
-    }*/

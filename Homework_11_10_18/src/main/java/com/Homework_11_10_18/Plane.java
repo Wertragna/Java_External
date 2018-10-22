@@ -47,7 +47,7 @@ public class Plane extends Vehicle implements FlyAble {
         public PlaneBuilder height(int height){
             final int HEIGHT_MAX= 100000;
             final int HEIGHT_MIN= 500;
-            if(height<=HEIGHT_MIN || height>=HEIGHT_MAX) {
+            if(height<HEIGHT_MIN || height>HEIGHT_MAX) {
                 throw new IllegalArgumentsOfVehicleException("height");
             }
             this.height = height;

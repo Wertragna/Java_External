@@ -4,8 +4,8 @@ import javax.swing.event.MenuListener;
 
 public enum  LanguageEnum {
     EN("en",1),
-    RU("ru",2),
-    UA("ukr",3);
+    RU("ru",2);
+   // UA("ukr",3);
 
     private String langCode;
     private int id;
