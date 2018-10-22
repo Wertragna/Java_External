@@ -8,13 +8,14 @@ import java.util.Scanner;
 
 public class Fibonacci {
     private static final int ONE_HUNDRED_PERCENT = 100;
-    private int iFib;
-    private int iFibNext;
+    private int currentFib;
+    private int nextFib;
+
     private List<Number> fibs;
     private Number fib(){
-        iFibNext = iFibNext + iFib;
-        iFib = iFibNext - iFib;
-        return new Number(iFib);
+        nextFib = nextFib + currentFib;
+        currentFib = nextFib - currentFib;
+        return new Number(currentFib);
     }
     public Fibonacci() {
         fibs = new ArrayList<>();
@@ -27,8 +28,8 @@ public class Fibonacci {
         init(sizeOfSet);
     }
     private  void init(int sizeOfSet) {
-        iFibNext =0;
-        iFib =1;
+        nextFib =0;
+        currentFib =1;
         for (int i = 0; i < sizeOfSet; i++) {
             fibs.add(fib());
         }
