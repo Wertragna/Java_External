@@ -1,8 +1,13 @@
 package com.Homework_11_10_18;
 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Hello world!
@@ -12,28 +17,30 @@ public class App
 {
     static List<Vehicle> vehicles = new ArrayList<>();
     public static void main( String[] args ) {
-        fillVehicles();
-
-        System.out.println("Query 1:");
-        List<Vehicle> query = VehicleFinder.getPlanesWithHeightMoreThan5000YearOfManufactureAfter2000(vehicles);
+       // fillVehicles();
+        Controller a = new Controller(new Model(),new View());
+        a.fillVehicles();
+        a.processUser(new Scanner(System.in));
+        /*List<Vehicle> query = VehicleFinder.getPlanesWithHeightMoreThan5000YearOfManufactureAfter2000(vehicles);
         query.forEach(n-> System.out.println(n));
 
         System.out.println("Query 2:");
-        query = VehicleFinder.getPlaneWithSpeedBetween200And500(vehicles);
+        query = VehicleFinder.getNotPlaneWithSpeedBetween200And500(vehicles);
         query.forEach(n-> System.out.println(n));
+        ListOfVehicleByFlyMoveSwim query3 = new ListOfVehicleByFlyMoveSwim();
 
-        ListOfVehicleByFlyMoveSwim query3 = VehicleFinder.getFilteredByWaysOfMoving(vehicles);
+        query3.addListOfVehicleByWaysOfMoving(vehicles);
         System.out.println(query3);
 
-        query = VehicleFinder.getWithMaxSpeed(query3.flyAbles);
+        query = VehicleFinder.getWithMaxSpeed(query3.getFlyAbles());
         System.out.println("Flyable with maximal speed:");
         query.forEach(n-> System.out.println(n));
-        query = VehicleFinder.getWithMaxSpeed(query3.moveAbles);
+        query = VehicleFinder.getWithMaxSpeed(query3.getMoveAbles());
         System.out.println("Flyable with maximal moveable:");
         query.forEach(n-> System.out.println(n));
-        query = VehicleFinder.getWithMaxSpeed(query3.swimAbles);
+        query = VehicleFinder.getWithMaxSpeed(query3.getSwimAbles());
         System.out.println("Swimable with maximal speed:");
-        query.forEach(n-> System.out.println(n));
+        query.forEach(n-> System.out.println(n));*/
     }
 
     private static void fillVehicles(){

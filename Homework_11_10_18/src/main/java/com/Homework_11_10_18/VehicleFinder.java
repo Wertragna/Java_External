@@ -11,51 +11,60 @@ public class VehicleFinder {
         final int YEAR_LIMIT = 2000;
         final int HEIGHT_LIMIT = 5000;
 
+        List<Vehicle> res = getPlanesWithHeightMoreThanXYearOfManufactureAfterY(vehicles,HEIGHT_LIMIT,YEAR_LIMIT);
+        return res;
+    }
+    public static List<Vehicle> getPlanesWithHeightMoreThanXYearOfManufactureAfterY(List<Vehicle> vehicles,int xHeignt, int yYears) {
+        final int YEAR_LIMIT = yYears;
+        final int HEIGHT_LIMIT = xHeignt;
+
         List<Vehicle> res = new ArrayList(vehicles);
-        res.removeIf(v -> !((v instanceof Plane) && v.getYearOfManufactured()>=YEAR_LIMIT&&((Plane)v).getHeight()>HEIGHT_LIMIT));
+        res.removeIf(v -> !((v instanceof Plane) && v.getYearOfManufacture()>=YEAR_LIMIT&&((Plane)v).getHeight()>HEIGHT_LIMIT));
         return res;
     }
 
-    public static List <Vehicle> getPlaneWithSpeedBetween200And500(List<Vehicle> vehicles) {
+    private static List <Vehicle> getVehicleWithSpeedBetweenMinAndMax(List<Vehicle> vehicles, int minSpeed, int maxSpeed) {
+        final int MAX_SPEED = maxSpeed;
+        final int MIN_SPEED = minSpeed;
+        List<Vehicle> filteredVehicles = new ArrayList(vehicles);
+        filteredVehicles.removeIf(v -> !(!(v instanceof Plane) && v.getSpeed() >= MIN_SPEED&&v.getSpeed()<=MAX_SPEED));
+        return filteredVehicles;
+    }
+    public static List <Vehicle> getNotPlaneWithSpeedBetweenXAndY(List<Vehicle> vehicles, int xSpeed, int ySpeed) {
+        final int MIN_SPEED = xSpeed;
+        final int MAX_SPEED= ySpeed;
+        List<Vehicle> filteredVehicles = getVehicleWithSpeedBetweenMinAndMax(vehicles, MIN_SPEED, MAX_SPEED);
+        filteredVehicles.removeIf(v -> !(!(v instanceof Plane)));
+        return filteredVehicles;
+    }
+
+    public static List <Vehicle> getNotPlaneWithSpeedBetween200And500(List<Vehicle> vehicles) {
         final int MAX_SPEED = 500;
         final int MIN_SPEED = 200;
-
-        List<Vehicle> res = new ArrayList(vehicles);
-        res.removeIf(v -> !(!(v instanceof Plane) && v.getSpeed() >= MIN_SPEED&&v.getSpeed()<=MAX_SPEED));
-        return res;
+        return getNotPlaneWithSpeedBetweenXAndY(vehicles,MIN_SPEED,MAX_SPEED);
     }
 
-    public static ListOfVehicleByFlyMoveSwim getFilteredByWaysOfMoving(List<Vehicle> vehicles) {
-        ListOfVehicleByFlyMoveSwim filteredResult = new ListOfVehicleByFlyMoveSwim();
-        for(Vehicle v: vehicles) {
-            if(v instanceof MoveAble) {
-                filteredResult.moveAbles.add(v);
-            }
-            if(v instanceof SwimAble) {
-                filteredResult.swimAbles.add(v);
-            }
-            if(v instanceof FlyAble) {
-                filteredResult.flyAbles.add(v);
-            }
-        }
-        return filteredResult;
-    }
 
     public static List<Vehicle> getWithMaxSpeed(List<Vehicle> vehicles) {
         int maxSpeed = vehicles.stream().max(Comparator.comparing(Vehicle::getSpeed)).get().getSpeed();
-        List<Vehicle> res = new ArrayList(vehicles);
-        res.removeIf(v->!(v.getSpeed()==maxSpeed));
-        return  res;
+        List<Vehicle> filteredVehicles = new ArrayList(vehicles);
+        filteredVehicles.removeIf(v -> !(v.getSpeed() == maxSpeed));
+        return  filteredVehicles;
     }
-
-    public static List<Vehicle> getWithMinPriceAndMaxSpeedYoungerThan5Years(List<Vehicle> vehicles){
-        final int AGE_LIMIT = 5;
+    public static List<Vehicle> getWithMinPriceAndMaxSpeedYoungerThanXYears(List<Vehicle> vehicles, int ageLimit){
+        final int AGE_LIMIT = ageLimit;
         int currentYear = Calendar.getInstance().get(Calendar.YEAR);
         BigDecimal minPrice = vehicles.stream().min(Comparator.comparing(Vehicle::getPrice)).get().getPrice();
         int maxSpeed = vehicles.stream().max(Comparator.comparing(Vehicle::getSpeed)).get().getSpeed();
-        List<Vehicle> res = new ArrayList(vehicles);
-        res.removeIf(v->!(v.getSpeed()==maxSpeed&&v.getPrice().equals(minPrice)&&currentYear-v.getYearOfManufactured()<AGE_LIMIT));
-        return res;
+        List<Vehicle> filteredVehicles = new ArrayList(vehicles);
+        filteredVehicles.removeIf(v -> !(v.getSpeed() == maxSpeed
+                && v.getPrice().equals(minPrice)
+                && currentYear - v.getYearOfManufacture() < AGE_LIMIT));
+        return filteredVehicles;
+    }
+    public static List<Vehicle> getWithMinPriceAndMaxSpeedYoungerThan5Years(List<Vehicle> vehicles){
+        final int AGE_LIMIT = 5;
+        return getWithMinPriceAndMaxSpeedYoungerThanXYears(vehicles,AGE_LIMIT);
     }
 
 }

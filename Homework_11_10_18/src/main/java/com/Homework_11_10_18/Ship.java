@@ -35,11 +35,21 @@ public class Ship extends Vehicle implements SwimAble{
         }
 
         public ShipBuilder numberOfPassengers(int passengers){
+            final int NUMBER_OF_PASSENGERS_MAX= 10000;
+            final int NUMBER_OF_PASSENGERS_MIN= 5;
+            if(passengers<=NUMBER_OF_PASSENGERS_MIN || passengers>=NUMBER_OF_PASSENGERS_MAX) {
+                throw new IllegalArgumentsOfVehicleException("passengers");
+            }
             this.numberOfPassengers = passengers;
             return this;
         }
 
         public ShipBuilder port(int port){
+            final int PORT_MAX= 10000;
+            final int PORT_MIN= 500;
+            if(port<=PORT_MIN || port>=PORT_MAX) {
+                throw new IllegalArgumentsOfVehicleException("port");
+            }
             this.port = port;
             return this;
         }
