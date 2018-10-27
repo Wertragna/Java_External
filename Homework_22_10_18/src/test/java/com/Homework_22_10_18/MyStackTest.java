@@ -2,7 +2,6 @@ package com.Homework_22_10_18;
 
 import org.junit.*;
 
-import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -84,7 +83,7 @@ public class MyStackTest {
         int sizeActual = s.size();
 
         assertTrue(isEmpty);
-        assertEquals(sizeActual, SIZE_OF_EMPTY_STACK);
+        assertEquals(SIZE_OF_EMPTY_STACK,sizeActual);
     }
 
     @Test(expected=NoSuchElementException.class)
@@ -126,6 +125,7 @@ public class MyStackTest {
         String MESSAGE = "hello";
         s.push(MESSAGE);
         Iterator<String> iterator = s.iterator();
+        assertNotNull(iterator);
         assertTrue(iterator.hasNext());
         assertEquals(MESSAGE,iterator.next());
         assertFalse(iterator.hasNext());

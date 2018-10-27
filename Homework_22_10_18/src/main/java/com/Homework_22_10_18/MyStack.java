@@ -19,13 +19,10 @@ public class MyStack implements Iterable<String> {
         } else if (initialCapacity == 0) {
             stackArray = new String[]{};
         } else {
-            throw new IllegalArgumentException("Illegal Capacity: "+
-                    initialCapacity);
+            throw new IllegalArgumentException("Illegal Capacity: "+ initialCapacity);
         }
-
     }
 
-    @Override
     public Iterator<String> iterator() {
         Iterator <String> iterator = new Iterator<String>() {
             private int  currentIndex = 0;
@@ -71,7 +68,6 @@ public class MyStack implements Iterable<String> {
     public String pop() {
         if (isEmpty())
             throw new NoSuchElementException();
-
         return stackArray[top--];
     }
 
