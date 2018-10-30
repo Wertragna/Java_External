@@ -11,6 +11,9 @@ public class App {
         Star sun = new Star("Sun");
         StarSystem starSystem= new StarSystem("SunStarSystem", sun);
         starSystem.addPlanet(earth);
+        Moon moon = new Moon("Moon");
+        earth.addMoon(moon);
+        System.out.println(moon.getPlanet());
         System.out.println(sun.getName()+", Count of planets: "+starSystem.getPlanets().size()+starSystem.toString());
     }
 }
