@@ -4,62 +4,78 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/*I don't really know what to fix here, so i'll just leave a comment here ;) */
 
 public class Fibonacci {
     private static final int ONE_HUNDRED_PERCENT = 100;
-    private int currentFib;
-    private int nextFib;
+    private static int currentFib;
+    private static int nextFib;
+    static {
+        fibs = new ArrayList<>();
+    }
 
-    private List<Number> fibs;
-    private Number fib(){
+    protected static List<Integer> fibs;
+    private static Integer fib(){
         nextFib = nextFib + currentFib;
         currentFib = nextFib - currentFib;
-        return new Number(currentFib);
+        return Integer.valueOf(nextFib);
     }
-    public Fibonacci() {
-        fibs = new ArrayList<>();
+
+    public static void fillOfConsole() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nEnter size of set(N):");
         int sizeOfSet = scanner.nextInt();
-        if(sizeOfSet < 1){
+        fill(sizeOfSet);
+    }
+    private static void fill(int N) {
+        if(N < 1){
             throw new IllegalArgumentException();
         }
-        init(sizeOfSet);
-    }
-    private  void init(int sizeOfSet) {
+        fibs = new ArrayList<>();
         nextFib =0;
         currentFib =1;
-        for (int i = 0; i < sizeOfSet; i++) {
+        for (int i = 0; i < N; i++) {
             fibs.add(fib());
         }
     }
-    public void printMaxOddAndEvenFib() {
+
+    public static int maxEven( int N){
+        fill(N);
         for(int i = fibs.size() - 1; i >= 0; --i){
-            if(fibs.get(i).isEven()) {
-                System.out.println("The biggest even fibonacci number:"+ fibs.get(i).getValue());
-                break;
+            if(Number.isEven(fibs.get(i))) {
+                return fibs.get(i);
             }
         }
-        for(int i=fibs.size()-1; i>=0; --i){
-            if(!fibs.get(i).isEven()){
-                System.out.println("The biggest odd fibonacci number:"+ fibs.get(i).getValue());
-                break;
-            }
-        }
+        return -1;
     }
-    public void printPercentageOfOddAndEven(){
-        int numOfOdd = 0, numOfEven = 0;
-        for(Number i:fibs){
-            if(i.isEven()){
+    public  static int maxOdd(int N){
+        fill(N);
+        for(int i = fibs.size() - 1; i >= 0; --i){
+            if(!Number.isEven(fibs.get(i))) {
+                return fibs.get(i);
+            }
+        }
+        return -1;
+    }
+
+    public static void printMaxOddAndEvenFib(int N) {
+        fill(N);
+        System.out.println("The biggest even fibonacci number:" + maxEven(N));
+        System.out.println("The biggest odd fibonacci number:" + maxOdd(N));
+    }
+    public static double percentageOfEven(int N){
+        fill(N);
+        int numOfEven = 0;
+        for(Integer i:fibs){
+            if(Number.isEven(i)){
                 numOfEven++;
             }
-            else {
-                numOfOdd++;
-            }
         }
-        double oddPercentage = (double)numOfOdd/fibs.size()*ONE_HUNDRED_PERCENT;
-        double evenPercentage = (double)numOfEven/fibs.size()*ONE_HUNDRED_PERCENT;
+        return (double)numOfEven/fibs.size()*ONE_HUNDRED_PERCENT;
+    }
+
+    public static void printPercentageOfOddAndEven(int N){
+        double oddPercentage = percentageOfEven(N);
+        double evenPercentage = ONE_HUNDRED_PERCENT-oddPercentage;
         System.out.println("Percentage of even:"+evenPercentage);
         System.out.println("Percentage of odd:"+oddPercentage);
     }

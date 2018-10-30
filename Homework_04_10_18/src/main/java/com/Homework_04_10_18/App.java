@@ -10,13 +10,12 @@ public final class App {
     public static void main(String[] args) {
         try {
             Interval interval = new Interval();
-            NumbersEvenAndOdd numbersEvenAndOdd = new NumbersEvenAndOdd(interval);
-            numbersEvenAndOdd.printOddFromEnd();
-            numbersEvenAndOdd.printEvenFromStart();
-            numbersEvenAndOdd.printSumOddAndEvenNumbers();
-            Fibonacci fibonacci = new Fibonacci();
-            fibonacci.printMaxOddAndEvenFib();
-            fibonacci.printPercentageOfOddAndEven();
+
+            NumbersEvenAndOdd.printOddFromEnd(interval);
+            NumbersEvenAndOdd.printEvenFromStart(interval);
+            NumbersEvenAndOdd.printSumOddAndEvenNumbers(interval);
+            Fibonacci.printMaxOddAndEvenFib(6);
+            Fibonacci.printMaxOddAndEvenFib(6);
         }
         catch (Exception e){
             System.out.println("Exception");

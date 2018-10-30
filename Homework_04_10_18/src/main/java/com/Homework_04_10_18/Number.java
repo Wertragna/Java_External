@@ -2,24 +2,12 @@ package com.Homework_04_10_18;
 
 
 public class Number {
-    private int value;
-    private boolean isEven;
-
-    public Number(int number) {
-        value = number;
-        if(value % 2 == 0) {
-            isEven = true;
+    public static boolean isEven(int number) {
+        if(number % 2 == 0) {
+           return true;
         }
         else {
-            isEven = false;
+           return false;
         }
-    }
-
-    public int getValue() {
-        return value;
-    }
-
-    public boolean isEven() {
-        return isEven;
     }
 }

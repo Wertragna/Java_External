@@ -4,48 +4,53 @@ import java.util.List;
 
 
 public class NumbersEvenAndOdd {
-    private List<Number> numbers;
-    public NumbersEvenAndOdd(Interval interval){
+    private static List<Integer> numbers;
+    private static void fill(Interval interval){
         numbers = new ArrayList<>();
         for( int j = interval.getStart(); j <= interval.getEnd(); j++){
-            numbers.add(new Number(j));
+            numbers.add(j);
         }
     }
-    private int sumEvenNumbers() {
+    static int  sumEvenNumbers(Interval interval) {
+        fill(interval);
         int sum = 0;
-        for(Number i:numbers){
-            if(i.isEven()){
-                sum+=i.getValue();
+        for(Integer i:numbers){
+            if(Number.isEven(i)){
+                sum+=i;
             }
         }
         return sum;
     }
-    private int sumOddNumbers() {
+    static int  sumOddNumbers(Interval interval) {
+        fill(interval);
         int sumOdd = 0;
-        for(Number i: numbers) {
-            if(!i.isEven()) {
-                sumOdd += i.getValue();
+        for(Integer i: numbers) {
+            if(!Number.isEven(i)) {
+                sumOdd += i;
             }
         }
         return sumOdd;
     }
-    public void printSumOddAndEvenNumbers() {
-        System.out.print("\nOdd sum:"+sumOddNumbers());
-        System.out.print("\nEven sum:"+sumEvenNumbers());
+    public static void printSumOddAndEvenNumbers(Interval interval) {
+        fill(interval);
+        System.out.print("\nOdd sum:"+sumOddNumbers(interval));
+        System.out.print("\nEven sum:"+sumEvenNumbers(interval));
     }
-    public void printEvenFromStart(){
+    public static void printEvenFromStart(Interval interval){
+        fill(interval);
         System.out.println("\nEven numbers:");
         for(int i=numbers.size() - 1; i >= 0; --i) {
-            if(numbers.get(i).isEven()){
-                System.out.print(numbers.get(i).getValue()+" ");
+            if(Number.isEven(i)){
+                System.out.print(numbers.get(i)+" ");
             }
         }
     }
-    public void printOddFromEnd() {
+    public static void printOddFromEnd(Interval interval) {
+        fill(interval);
         System.out.println("\nOdd numbers:");
-        for(Number n: numbers) {
-            if(!n.isEven()) {
-                System.out.print(n.getValue()+" ");
+        for(Integer i: numbers) {
+            if(!Number.isEven(i)) {
+                System.out.print(numbers.get(i)+ " ");
             }
         }
     }
