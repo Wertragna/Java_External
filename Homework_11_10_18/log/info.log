@@ -1,1 +1,29 @@
 2018-10-22 14:30:05.533 [main] ERROR VehicleFinder - Error of input data.
+2018-10-22 20:42:53.094 [main] ERROR VehicleFinder - ÐÑÐ¸Ð±ÐºÐ° Ð²Ð²ÐµÐ´ÐµÐ½ÐµÐ³Ð¾ Ð·Ð½Ð°ÑÐµÐ½Ð¸Ðµ.
+2018-10-22 20:43:08.913 [main] ERROR VehicleFinder - ÐÑÐ¸Ð±ÐºÐ° Ð²Ð²ÐµÐ´ÐµÐ½ÐµÐ³Ð¾ Ð·Ð½Ð°ÑÐµÐ½Ð¸Ðµ.
+2018-10-22 20:43:24.821 [main] ERROR VehicleFinder - ÐÑÐ¸Ð±ÐºÐ° Ð²Ð²ÐµÐ´ÐµÐ½ÐµÐ³Ð¾ Ð·Ð½Ð°ÑÐµÐ½Ð¸Ðµ.
+2018-10-22 20:43:30.616 [main] ERROR VehicleFinder - Error of input data.
+2018-10-22 20:50:42.130 [main] ERROR VehicleFinder - The speed parameter has inadequate value
+2018-10-22 20:50:44.288 [main] ERROR VehicleFinder - The speed parameter has inadequate value
+2018-10-22 20:50:45.830 [main] ERROR VehicleFinder - The speed parameter has inadequate value
+2018-10-22 20:50:47.602 [main] ERROR VehicleFinder - The speed parameter has inadequate value
+2018-10-22 20:50:50.183 [main] ERROR VehicleFinder - The speed parameter has inadequate value
+2018-10-31 09:51:41.679 [main] ERROR VehicleFinder - The height parameter has inadequate value
+2018-10-31 09:58:31.202 [main] ERROR VehicleFinder - Ошибка введенего значение.
+2018-10-31 09:58:37.732 [main] ERROR VehicleFinder - The height parameter has inadequate value
+2018-10-31 10:55:48.992 [main] ERROR VehicleFinder - Файл не может быть создан: java.io.FileNotFoundException: data\demo.data (The system cannot find the path specified)
+2018-10-31 10:57:13.180 [main] ERROR VehicleFinder - Класс не поддерживает сериализацию: java.io.NotSerializableException: com.Homework_11_10_18.Plane
+2018-10-31 12:49:13.480 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:50:20.887 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:51:40.954 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:53:06.958 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:53:43.011 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:54:57.341 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:55:04.636 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:55:04.658 [main] ERROR VehicleFinder - объект не восстановлен
+2018-10-31 12:56:29.097 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:56:29.125 [main] ERROR VehicleFinder - объект не восстановлен
+2018-10-31 12:56:47.664 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:56:47.689 [main] ERROR VehicleFinder - объект не восстановлен
+2018-10-31 12:57:22.216 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
+2018-10-31 12:57:22.240 [main] ERROR VehicleFinder - объект не восстановлен

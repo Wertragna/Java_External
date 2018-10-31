@@ -1,33 +1,38 @@
 package com.Homework_11_10_18;
 
 
+import com.Homework_11_10_18.Enums.LanguageEnum;
+import com.Homework_11_10_18.Enums.MenuItem;
+import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfConsoleException;
+import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
+import com.Homework_11_10_18.Exceptions.IllegalItemOfMenu;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.InvalidObjectException;
 import java.math.BigDecimal;
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.ResourceBundle;
-import java.util.Scanner;
+import java.util.*;
 
 
-
-public class Controller {
+public class VehicleController {
     // Constructor
-    Model model;
-    View view;
+    VehicleModel model;
+    VehicleView view;
     ResourceBundle resourceBundle;
+    Scanner scanner;
     private  Locale locale;
     static final String LOCAL_BUNDLE_NAME= "menu";
-    final Logger logger = LogManager.getLogger("VehicleFinder");
-    public Controller(Model model, View view) {
+    final static Logger logger = LogManager.getLogger("VehicleFinder");
+    public VehicleController(VehicleModel model, VehicleView view, Scanner scanner) {
+        this.scanner= scanner;
         this.model  = model;
         this.view = view;
+        fillVehicles();
     }
 
     public void fillVehicles(){
-        try{
-            model.addVehicle(new Plane.PlaneBuilder(350, 2010,  BigDecimal.valueOf(1000))
+        try {
+           /* model.addVehicle(new Plane.PlaneBuilder(350, 2010, BigDecimal.valueOf(1000))
                     .numberOfPassengers(800)
                     .height(12000)
                     .build()
@@ -55,57 +60,64 @@ public class Controller {
             model.addVehicle(new Car(120, 2013, BigDecimal.valueOf(150000)));
             model.addVehicle(new BetMobile(1200, 1985, BigDecimal.valueOf(11111)));
             model.addVehicle(new AmphibiousCar(110, 2018, BigDecimal.valueOf(170000)));
-            model.addVehicle(new AmphibiousCar(250, 2018, BigDecimal.valueOf(170000)));
+            model.addVehicle(new AmphibiousCar(250, 2018, BigDecimal.valueOf(170000)));*/
+            GenericSerialization<ArrayList<Vehicle>> sr = new GenericSerialization<>();
+            String file = "data\\vehicles.data";
+            //sr.serialization(model.vehicleList, file);
+            model.vehicleList = sr.deserialization(file);
+           // System.out.println(model.vehicleList.get(0).getClass());
         }
+            catch (InvalidObjectException e){
+                logger.error(e.getMessage());
+            }
+
+
         catch (IllegalArgumentsOfVehicleException e){
             logger.error(e.getMessage());
         }
     }
-    // The Work method
-    public void processUser(Scanner sr)        {
-            Scanner sc = new Scanner(System.in);
-            LocalizeMenu(sr);
-            while(isNotExit(sr)) {
-            }
+
+    public void processUser() {
+            LocalizeMenu();
+            while(isNotExit());
     }
 
 
-    private boolean isNotExit(Scanner sr){
+    private boolean isNotExit(){
         try{
-            return menu(sr);
+            view.showMenu();
+            int id = getUserChoice(resourceBundle.getString("label.chooseMenu"));
+            return menu(chooseMenuItem(id));
         }
-        catch (IllegalArgumentsOfConsoleException e) {
+        catch (IllegalArgumentException| IllegalItemOfMenu e) {
             logger.error(e.getMessage());
         }
-        catch (IllegalArgumentException e) {
-            logger.error(e.getMessage());
-        }
-        catch (IllegalItemOfMenu e){
-            logger.error(e.getMessage());
-        }
-
         return true;
     }
-    private boolean menu(Scanner sr) {
+
+
+    public MenuItem chooseMenuItem(int idMenuItem) {
+        return MenuItem.getEnum(idMenuItem);
+    }
+
+    private boolean menu(MenuItem m) {
         int maxSpeed;
         int minSpeed;
         int height;
         int minYear;
         int ageLimit;
-        view.showMenu();
-        MenuItem m = MenuItem.getEnum(getUserChoice(sr, resourceBundle.getString("label.chooseMenu")));
         switch (m) {
             case getPlanesWithHeightMoreThanXYearOfManufactureAfterY:
-                height = getUserChoice(sr, resourceBundle.getString("input.minHeight"));
+                height = getUserChoice(resourceBundle.getString("input.minHeight"));
                 checkHeight(height);
-                minYear = getUserChoice(sr, resourceBundle.getString("input.minYear"));
+                minYear = getUserChoice( resourceBundle.getString("input.minYear"));
                 checkYear(minYear);
                 view.pringQueryResults(model.getPlanesWithHeightMoreThanXYearOfManufactureAfterY(height, minYear));
                 return true;
             case getNotPlaneWithSpeedBetweenXAndY:
-                minSpeed = getUserChoice(sr, resourceBundle.getString("input.minSpeed"));
+                minSpeed = getUserChoice(resourceBundle.getString("input.minSpeed"));
                 checkSpeed(minSpeed);
-                maxSpeed = getUserChoice(sr, resourceBundle.getString("input.maxSpeed"));
+                maxSpeed = getUserChoice(resourceBundle.getString("input.maxSpeed"));
                 checkSpeed(maxSpeed);
                 view.pringQueryResults(model.getNotPlaneWithSpeedBetweenXAndY(minSpeed, maxSpeed));
                 return true;
@@ -113,7 +125,7 @@ public class Controller {
                 view.pringQueryResults(model.getWithMaxSpeed());
                 return true;
             case getWithMinPriceAndMaxSpeedYoungerThanXYears:
-                ageLimit = getUserChoice(sr, resourceBundle.getString("input.ageLimit"));
+                ageLimit = getUserChoice(resourceBundle.getString("input.ageLimit"));
                 checkAge(ageLimit);
                 view.pringQueryResults(model.getWithMinPriceAndMaxSpeedYoungerThanXYears(ageLimit));
                 return true;
@@ -123,53 +135,56 @@ public class Controller {
         return false;
     }
 
-    private void LocalizeMenu (Scanner st){
-        String messageOfChooseLanguage = "Choose language/Выберите язык/Оберіть мову";
-        resourceBundle = ResourceBundle.getBundle(LOCAL_BUNDLE_NAME,new Locale("en"));
+    private void LocalizeMenu (){
+        String messageOfChooseLanguage = "Choose language/Выберите язык";
         view.printMessage(messageOfChooseLanguage);
         for(LanguageEnum languageEnum:LanguageEnum.values()){
-            System.out.println(languageEnum);
+            view.printMessage(languageEnum.toString());
         }
-        LanguageEnum language= LanguageEnum.getEnum(getUserChoice(st,messageOfChooseLanguage));
-        locale = new Locale(language.getLangCode());
-
-        resourceBundle = ResourceBundle.getBundle(LOCAL_BUNDLE_NAME,locale);
-       // System.out.println(resourceBundle.getLocale());
-        view.setResourceBundle(resourceBundle);
+        int id=getUserChoice(messageOfChooseLanguage)  ;
+        setAndGetResourceBundle(id);
     }
 
-    private int getUserChoice(Scanner sc, String message){
+    public ResourceBundle setAndGetResourceBundle (int id) {
+        LanguageEnum language= LanguageEnum.getEnum(id);
+        locale = new Locale(language.getLangCode());
+        resourceBundle = ResourceBundle.getBundle(LOCAL_BUNDLE_NAME,locale);
+        view.setResourceBundle(resourceBundle);
+        return resourceBundle;
+    }
+
+    private int getUserChoice(String message){
        view.printMessage(message);
-        while( ! sc.hasNextInt()) {
+        while( ! scanner.hasNextInt()) {
             view.printMessage(resourceBundle.getString("input.error"));
             logger.error(resourceBundle.getString("input.error"));
             view.printMessage(message);
-            sc.next();
+            scanner.next();
         }
-        return sc.nextInt();
+        return scanner.nextInt();
     }
-    private void checkHeight(int param){
+    void checkHeight(int param){
         final int HEIGHT_MAX = 100000;
-        final int HEIGHT_MIN = 500;
+        final int HEIGHT_MIN = 400;
         if(param<=HEIGHT_MIN || param>=HEIGHT_MAX)
             throw new IllegalArgumentsOfConsoleException("The height parameter has inadequate value");
     }
 
-    private void checkYear(int param){
+    void checkYear(int param){
         final int YEAR_MAX = Calendar.getInstance().get(Calendar.YEAR);
         final int YEAR_MIN = 1900;
         if(param<=YEAR_MIN || param>=YEAR_MAX)
             throw new IllegalArgumentsOfConsoleException("The year parameter has inadequate value");
     }
 
-    private void checkSpeed(int param){
+    void checkSpeed(int param){
         final int SPEED_MAX = 2000;
         final int SPEED_MIN = 20;
         if(param<=SPEED_MIN || param>=SPEED_MAX)
             throw new IllegalArgumentsOfConsoleException("The speed parameter has inadequate value");
     }
 
-    private void checkAge(int param){
+    void checkAge(int param){
         final int AGE_MAX = 100;
         final int AGE_MIN = 0;
         if(param<=AGE_MIN || param>=AGE_MAX)

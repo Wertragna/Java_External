@@ -1,4 +1,4 @@
-package com.Homework_11_10_18;
+package com.Homework_11_10_18.Exceptions;
 
 public class IllegalItemOfMenu extends RuntimeException{
     public IllegalItemOfMenu() {

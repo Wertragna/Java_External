@@ -1,8 +1,11 @@
 package com.Homework_11_10_18;
 
+import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
+
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Plane extends Vehicle implements FlyAble {
+public class Plane extends Vehicle implements FlyAble, Serializable {
     private int height;
     private int numberOfPassengers;
 

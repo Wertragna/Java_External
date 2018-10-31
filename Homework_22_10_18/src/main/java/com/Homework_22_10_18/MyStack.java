@@ -68,7 +68,9 @@ public class MyStack implements Iterable<String> {
     public String pop() {
         if (isEmpty())
             throw new NoSuchElementException();
-        return stackArray[top--];
+        String pop= stackArray[top--];
+        stackArray[top+1]=null;
+        return pop;
     }
 
     private void grow(int minCapacity) {

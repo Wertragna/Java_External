@@ -1,9 +1,13 @@
 package com.Homework_11_10_18;
 
+import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
+
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Calendar;
+import java.util.Objects;
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Serializable {
 
     private BigDecimal price;
     private int speed;
@@ -55,6 +59,21 @@ public abstract class Vehicle {
                 ", speed=" + speed +
                 ", yearOfManufacture=" + yearOfManufacture +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return speed == vehicle.speed &&
+                yearOfManufacture == vehicle.yearOfManufacture &&
+                Objects.equals(price, vehicle.price);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(price, speed, yearOfManufacture);
     }
 
     @Override

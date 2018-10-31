@@ -1,8 +1,11 @@
 package com.Homework_11_10_18;
 
+import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
+
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Ship extends Vehicle implements SwimAble{
+public class Ship extends Vehicle implements SwimAble, Serializable {
     private int numberOfPassengers;
     private int port;
 

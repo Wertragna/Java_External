@@ -111,8 +111,8 @@ public class MyStackTest {
     public void testInitWithRightCapacity() {
         final int RIGHT_CAPACITY=5;
         final int ZERO_CAPASITY = 0;
-        s= new MyStack(RIGHT_CAPACITY);
-        s= new MyStack(ZERO_CAPASITY);
+        s = new MyStack(RIGHT_CAPACITY);
+        s = new MyStack(ZERO_CAPASITY);
     }
 
 

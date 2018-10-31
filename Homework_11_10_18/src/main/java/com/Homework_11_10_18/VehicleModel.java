@@ -5,11 +5,11 @@ import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Model {
-    public List<Vehicle> vehicleList = new ArrayList<>();
+public class VehicleModel {
+    public ArrayList<Vehicle> vehicleList = new ArrayList<>();
     public ListOfVehicleByFlyMoveSwim listOfVehicleByFlyMoveSwim;
 
-    public Model() {
+    public VehicleModel() {
         listOfVehicleByFlyMoveSwim = new ListOfVehicleByFlyMoveSwim();
     }
 
@@ -17,16 +17,16 @@ public class Model {
         vehicleList.add(vehicle);
     }
 
-    public List<Vehicle> getPlanesWithHeightMoreThanXYearOfManufactureAfterY(int xHeignt, int yYears) {
+    public ArrayList<Vehicle> getPlanesWithHeightMoreThanXYearOfManufactureAfterY(int xHeignt, int yYears) {
         return VehicleFinder.getPlanesWithHeightMoreThanXYearOfManufactureAfterY( vehicleList,xHeignt,yYears);
     }
-    public  List <Vehicle> getNotPlaneWithSpeedBetweenXAndY( int xSpeed, int ySpeed) {
+    public  ArrayList <Vehicle> getNotPlaneWithSpeedBetweenXAndY( int xSpeed, int ySpeed) {
         return VehicleFinder.getNotPlaneWithSpeedBetweenXAndY(vehicleList,xSpeed,ySpeed);
     }
-    public  List<Vehicle> getWithMaxSpeed(){
+    public  ArrayList<Vehicle> getWithMaxSpeed(){
         return VehicleFinder.getWithMaxSpeed(vehicleList);
     }
-    public  List<Vehicle> getWithMinPriceAndMaxSpeedYoungerThanXYears(int ageLimit){
+    public  ArrayList<Vehicle> getWithMinPriceAndMaxSpeedYoungerThanXYears(int ageLimit){
         return VehicleFinder.getWithMinPriceAndMaxSpeedYoungerThanXYears(vehicleList,ageLimit);
     }
 }

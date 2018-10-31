@@ -1,5 +1,6 @@
 package com.Homework_11_10_18;
 
+import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
 import org.junit.*;
 
 import java.math.BigDecimal;

@@ -1,6 +1,6 @@
-package com.Homework_11_10_18;
+package com.Homework_11_10_18.Enums;
 
-import java.util.stream.Stream;
+import com.Homework_11_10_18.Exceptions.IllegalItemOfMenu;
 
 public enum MenuItem {
         getPlanesWithHeightMoreThanXYearOfManufactureAfterY(1),
@@ -16,8 +16,9 @@ public enum MenuItem {
         public int getId() {
             return id;
         }
-        public static com.Homework_11_10_18.MenuItem getEnum(int value) {
-            for(com.Homework_11_10_18.MenuItem v : values())
+
+        public static MenuItem getEnum(int value) {
+            for(MenuItem v : values())
                 if(v.getId()==value)
                     return v;
             throw new IllegalItemOfMenu("Wrong menu item.");

@@ -51,6 +51,7 @@ public class Lexer {
             temp.append(curentChar);
             Advance();
         }
+
         return temp.toString();
     }
 
@@ -64,7 +65,6 @@ public class Lexer {
     }
 
     String getNextToken()   {
-        //тут повертаються значення
          while (!isEnd()) {
             if (Character.isWhitespace(curentChar)) {
                 SkipWhitespace();
@@ -80,8 +80,7 @@ public class Lexer {
             }
             if (Character.isLetter(curentChar)) {
                 String temp = Letter();
-                System.out.println("s");
-                if (isMathFunction(temp)){
+                if (isSin(temp)){
                     return temp;
                 }
                 else {
@@ -91,7 +90,6 @@ public class Lexer {
             throw new LexerException(pos + "InvalidCharacter");
         }
         return "";
-//        throw new LexerException("empty");
     }
 
     public ArrayList<String> getArrayOfToken(){
@@ -104,8 +102,8 @@ public class Lexer {
         }
         return ArrayOfToken;
     }
-    static boolean isMathFunction(String s){
-        return s.equals("sin") || s.equals("log");
+    static boolean isSin(String s){
+        return s.equals("sin");
     }
 
 }

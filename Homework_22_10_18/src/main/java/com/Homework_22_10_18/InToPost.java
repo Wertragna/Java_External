@@ -38,7 +38,7 @@ public class InToPost {
                     stack.push(s);
                     break;
                 case ")":
-                    gotClosingParentheses(s);
+                    gotClosingParentheses();
                     break;
                 default:
                     output.add(s);
@@ -53,7 +53,7 @@ public class InToPost {
         return output;
     }
 
-    void gotOperator(String  currentOp, int priority1) {
+    void gotOperator(String currentOp, int priority1) {
         while(!stack.isEmpty()){
             String operatorTop = stack.pop();
             if(operatorTop.equals("(")){
@@ -66,7 +66,6 @@ public class InToPost {
                 } else if(operatorTop.equals("*")||operatorTop.equals("/"))
                     priority2 = 2;
                 else priority2 = 3;
-
                 if(priority2<priority1||currentOp.equals("^")&&priority2<=priority1){
                     stack.push(operatorTop);
                     break;
@@ -77,7 +76,17 @@ public class InToPost {
         }
         stack.push(currentOp);
     }
-    void gotClosingParentheses(String current) {
+    void gotClosingParentheses() {
+        if (!stack.isEmpty()){
+            String top = stack.pop();
+            if(top.equals("(")&&output.isEmpty()){
+                throw new ArithmeticException("() in expression");
+            }
+            else if(top.equals("("))
+                return;
+            else
+                output.add(top);
+        }
         while (!stack.isEmpty()){
             String top = stack.pop();
             if(top.equals("("))

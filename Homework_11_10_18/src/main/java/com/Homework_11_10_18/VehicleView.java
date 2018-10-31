@@ -2,27 +2,18 @@ package com.Homework_11_10_18;
 
 import java.util.List;
 import java.util.ResourceBundle;
-import java.util.stream.Stream;
 
 
-
-
-
-
-public class View {
+public class VehicleView {
     private static ResourceBundle resourceBundle;
     public void printMessage(String message){
         System.out.println(message);
     }
-
-
-    public static final String WRONG_INPUT_INT_DATA = "Wrong input! Repeat please! ";
-
     public void pringQueryResults(List<Vehicle> vehicles){
         vehicles.forEach(System.out::println);
     }
     static void setResourceBundle(ResourceBundle resourceBundle) {
-        View.resourceBundle = resourceBundle;
+        VehicleView.resourceBundle = resourceBundle;
     }
 
     public void showMenu(){

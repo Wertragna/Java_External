@@ -2,35 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d729db-9f1d-42ab-b167-732b133e3589" name="Default Changelist" comment="Initial commit with added MyStack and Tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/LexerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/main/java/com/Homework_04_10_18/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/main/java/com/Homework_04_10_18/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/data/vehicles.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/GenericSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/LanguageEnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/MenuItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/log/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/log/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/LanguageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/LanguageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/BetMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/BetMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalArgumentsOfConsoleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfConsoleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalArgumentsOfVehicleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfVehicleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalItemOfMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalItemOfMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/LanguageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Enums/LanguageEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Enums/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/resources/menu_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/menu_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/PlaneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/MyStack$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/MyStack$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Homework_22_10_18/MyStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Homework_22_10_18/MyStackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Homework_22_10_18/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Homework_22_10_18/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,10 +58,13 @@
     <SUITE FILE_PATH="coverage/Homework_22_10_18$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1540647576042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.Homework_22_10_18.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Homework_22_10_18$App.ic" NAME="App Coverage Results" MODIFIED="1540743723179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Homework_22_10_18.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Homework_22_10_18$InToPostTest.ic" NAME="InToPostTest Coverage Results" MODIFIED="1540673455368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.Homework_22_10_18.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Homework_22_10_18$com_Homework_22_10_18_in_Homework_22_10_18.ic" NAME="com.Homework_22_10_18 in Homework_22_10_18 Coverage Results" MODIFIED="1540678329139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Homework_22_10_18$com_Homework_22_10_18_in_Homework_22_10_18.ic" NAME="com.Homework_22_10_18 in Homework_22_10_18 Coverage Results" MODIFIED="1540824046285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.Homework_22_10_18.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Homework_22_10_18$PostfixCalcTest.ic" NAME="PostfixCalcTest Coverage Results" MODIFIED="1540675281642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -58,79 +75,54 @@
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="286" />
+    <option name="myElementSize" value="248" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1078030227">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="34" />
-          <entry key="xml" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="46" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="34" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="46" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="4199" />
-          <entry key="txt" value="66" />
+          <entry key="java" value="5021" />
+          <entry key="txt" value="88" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4199" />
-          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="JAVA" value="5021" />
+          <entry key="PLAIN_TEXT" value="99" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="26" />
-              <folding>
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/LexerException.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,23 +135,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+            <state relative-caret-position="1564">
+              <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
               <folding>
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#2765#2766#0" expanded="true" />
-                <element signature="e#2822#2823#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -167,20 +157,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="187">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="66" column="31" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="31" />
+            <state relative-caret-position="374">
+              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,27 +181,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="1717">
+              <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="816">
+              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -217,11 +204,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+            <state relative-caret-position="1785">
+              <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="83" column="51" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="32" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -252,24 +260,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/LexerExeption.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/LexerException.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostficCalc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="711" />
-    <option name="y" value="-32" />
-    <option name="width" value="813" />
-    <option name="height" value="862" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="width" value="1340" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -277,6 +285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -336,14 +346,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540680310703" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540884630676" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Igor/JavaExternal/Homework_23_10_18" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -371,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.com.Homework_22_10_18 in Homework_22_10_18">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Homework_22_10_18.App" />
       <module name="Homework_22_10_18" />
@@ -385,21 +394,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework_22_10_18" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Homework_22_10_18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Homework_22_10_18" />
-      <option name="MAIN_CLASS_NAME" value="com.Homework_22_10_18.LexerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostfixCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostfixCalcTest.parseInputWithDivideZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework_22_10_18" />
       <extension name="coverage">
         <pattern>
@@ -409,11 +404,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.Homework_22_10_18" />
       <option name="MAIN_CLASS_NAME" value="com.Homework_22_10_18.PostfixCalcTest" />
+      <option name="METHOD_NAME" value="parseInputWithDivideZero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixCalcTest.isNumber_correctDigit_returnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostfixCalcTest.parseInputWithPow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework_22_10_18" />
       <extension name="coverage">
         <pattern>
@@ -423,7 +420,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.Homework_22_10_18" />
       <option name="MAIN_CLASS_NAME" value="com.Homework_22_10_18.PostfixCalcTest" />
-      <option name="METHOD_NAME" value="isNumber_correctDigit_returnsTrue" />
+      <option name="METHOD_NAME" value="parseInputWithPow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostfixCalcTest.parse_correctInput_correctResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework_22_10_18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Homework_22_10_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Homework_22_10_18" />
+      <option name="MAIN_CLASS_NAME" value="com.Homework_22_10_18.PostfixCalcTest" />
+      <option name="METHOD_NAME" value="parse_correctInput_correctResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -444,19 +457,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LexerTest" />
-      <item itemvalue="JUnit.PostfixCalcTest.isNumber_correctDigit_returnsTrue" />
-      <item itemvalue="JUnit.PostfixCalcTest" />
       <item itemvalue="JUnit.com.Homework_22_10_18 in Homework_22_10_18" />
+      <item itemvalue="JUnit.PostfixCalcTest.parse_correctInput_correctResult" />
+      <item itemvalue="JUnit.PostfixCalcTest.parseInputWithPow" />
+      <item itemvalue="JUnit.PostfixCalcTest.parseInputWithDivideZero" />
       <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.com.Homework_22_10_18 in Homework_22_10_18" />
-        <item itemvalue="JUnit.PostfixCalcTest.isNumber_correctDigit_returnsTrue" />
-        <item itemvalue="JUnit.PostfixCalcTest" />
-        <item itemvalue="JUnit.LexerTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PostfixCalcTest.parseInputWithDivideZero" />
+        <item itemvalue="JUnit.PostfixCalcTest.parseInputWithPow" />
+        <item itemvalue="JUnit.PostfixCalcTest.parse_correctInput_correctResult" />
       </list>
     </recent_temporary>
   </component>
@@ -478,72 +491,79 @@
       <option name="project" value="LOCAL" />
       <updated>1540648171348</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Calc with tests">
+      <created>1540680393598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540680393598</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LexerTest - 2018.10.28 at 00h 01m 22s.xml">
-      <configuration name="LexerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LexerTest - 2018.10.28 at 00h 02m 51s.xml">
-      <configuration name="LexerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixCalcTest - 2018.10.28 at 00h 21m 11s.xml">
-      <configuration name="PostfixCalcTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixCalcTest - 2018.10.28 at 00h 21m 30s.xml">
-      <configuration name="PostfixCalcTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 00h 23m 24s.xml">
+    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 23h 19m 23s.xml">
       <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PostfixCalcTest_isNumber_correctDigit_returnsTrue - 2018.10.28 at 00h 44m 25s.xml">
-      <configuration name="PostfixCalcTest.isNumber_correctDigit_returnsTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixCalcTest_isNumber_correctDigit_returnsTrue - 2018.10.28 at 00h 48m 12s.xml">
-      <configuration name="PostfixCalcTest.isNumber_correctDigit_returnsTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 01h 09m 22s.xml">
+    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 23h 21m 07s.xml">
       <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 01h 12m 19s.xml">
+    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 23m 50s.xml">
+      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 24m 21s.xml">
+      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 24m 50s.xml">
+      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 25m 06s.xml">
+      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 23h 25m 26s.xml">
       <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 01h 24m 12s.xml">
+    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 23h 27m 34s.xml">
+      <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.29 at 09h 00m 14s.xml">
+      <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.29 at 16h 40m 56s.xml">
       <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33955225" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32867134" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Analysis" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33154505" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.24895105" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.37785235" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24966443" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -551,7 +571,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit with added MyStack and Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with added MyStack and Tests" />
+    <MESSAGE value="added Calc with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Calc with tests" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java">
@@ -579,10 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="115" column="18" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="18" />
-          <folding>
-            <element signature="e#2496#2497#0" expanded="true" />
-            <element signature="e#2561#2562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,10 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
           <caret line="1544" column="15" selection-start-line="1544" selection-start-column="15" selection-end-line="1544" selection-end-column="15" />
-          <folding>
-            <element signature="e#58481#58482#0" expanded="true" />
-            <element signature="e#58518#58519#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,27 +618,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/TokenType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/TokenType.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -636,94 +636,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="391">
           <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/FloatingDecimal.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding>
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#2765#2766#0" expanded="true" />
-            <element signature="e#2822#2823#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-512">
+          <caret line="156" column="50" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="31" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="537" column="34" selection-start-line="537" selection-start-column="34" selection-end-line="537" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="method#iterator#0;class#MyStack#0" />
+            <element signature="method#push#0;class#MyStack#0" />
+            <element signature="method#peek#0;class#MyStack#0" />
+            <element signature="method#pop#0;class#MyStack#0" />
+            <element signature="method#grow#0;class#MyStack#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,29 +685,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="1564">
+          <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
           <folding>
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
+        <state relative-caret-position="1156">
+          <caret line="68" column="62" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

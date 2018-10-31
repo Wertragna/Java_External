@@ -20,10 +20,10 @@ public class PostfixCalcTest {
 
     @Test
     public void isNumber_correctDigit_returnsTrue(){
-        assertTrue(calc.isNumber("-112"));
+        assertTrue(calc.isNumber("-5"));
         assertTrue(calc.isNumber("0"));
-        assertTrue(calc.isNumber("115"));
-        assertTrue(calc.isNumber("112.5"));
+        assertTrue(calc.isNumber("5"));
+        assertTrue(calc.isNumber("112.55"));
     }
 
 
@@ -41,7 +41,7 @@ public class PostfixCalcTest {
         ArrayList expected = new ArrayList();
         fillTokenList(expected);
         calc = new PostfixCalc(expected);
-        assertEquals(10, calc.parse(), DELTA);
+        assertEquals(-2, calc.parse(), DELTA);
     }
 
 
@@ -51,22 +51,22 @@ public class PostfixCalcTest {
         tokens.add("2");
         tokens.add("3");
         tokens.add("4");
-        tokens.add("-");
-        tokens.add("*");
         tokens.add("+");
+        tokens.add("*");
+        tokens.add("-");
     }
 
 
     @Test
-    public void parse_correctInputWithMathFunction_correctResult() {
+    public void parseInputWithSin() {
         ArrayList expected = new ArrayList();
-        fillTokenListWithMathFunction(expected);
+        fillTokenListWithSin(expected);
         calc = new PostfixCalc(expected);
         double actual = calc.parse();
         assertEquals(14.07, actual, DELTA);
     }
 
-    private void fillTokenListWithMathFunction(ArrayList<String> tokens) {
+    private void fillTokenListWithSin(ArrayList<String> tokens) {
         tokens.add("5");
         tokens.add("3");
         tokens.add("*");
@@ -77,6 +77,39 @@ public class PostfixCalcTest {
         tokens.add("+");
         tokens.add("sin");
         tokens.add("+");
+    }
+
+    @Test
+    public void parseInputWithPow() {
+
+        ArrayList expected = new ArrayList();
+        fillTokenListWithPow(expected);
+        calc = new PostfixCalc(expected);
+        double actual = calc.parse();
+        assertEquals(64, actual, DELTA);
+    }
+
+    private void fillTokenListWithPow(ArrayList<String> tokens) {
+        tokens.add("2");
+        tokens.add("2");
+        tokens.add("^");
+        tokens.add("3");
+        tokens.add("^");
+    }
+    @Test(expected = ArithmeticException.class)
+    public void parseInputWithDivideZero() {
+
+        ArrayList expected = new ArrayList();
+        fillTokenListWithDivideZero(expected);
+        calc = new PostfixCalc(expected);
+        double result = calc.parse();
+
+    }
+
+    private void fillTokenListWithDivideZero(ArrayList<String> tokens) {
+        tokens.add("2");
+        tokens.add("0");
+        tokens.add("/");
 
     }
 }
