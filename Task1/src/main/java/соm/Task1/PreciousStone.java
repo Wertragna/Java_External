@@ -4,6 +4,7 @@ import соm.Task1.Enums.Color;
 import соm.Task1.Enums.PreciousStoneName;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class PreciousStone extends Stone {
     PreciousStoneName name;
@@ -40,6 +41,20 @@ public class PreciousStone extends Stone {
     private PreciousStone(PreciousStoneBuilder builder) {
         super(builder.caratWeight, builder.color, builder.price, builder.diaphaneity);
         this.name = builder.name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        PreciousStone that = (PreciousStone) o;
+        return name == that.name;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), name);
     }
 
     @Override

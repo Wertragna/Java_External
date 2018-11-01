@@ -1,27 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0acdbdb-27e3-4dc3-bbca-f340d8e8e8fd" name="Default Changelist" comment="">
+    <list default="true" id="b0acdbdb-27e3-4dc3-bbca-f340d8e8e8fd" name="Default Changelist" comment="in">
       <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/qaplug_profiles.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/Homewor_31_10_18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/test/java/com/Homewor_31_10_18/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/test-classes/com/Homewor_31_10_18/AppTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/menu_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/Diaphaneity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/Enums/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/Enums/PreciousStoneName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/Enums/SemiPreciousStoneName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/StoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/WrongInputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/AmphibiousCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/BetMobile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Enums/LanguageEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Enums/MenuItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfConsoleException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfVehicleException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Exceptions/IllegalItemOfMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/FlyAble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/GenericSerialization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/ListOfVehicleByFlyMoveSwim.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/MoveAble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Plane$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Plane$PlaneBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Plane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Ship$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Ship$ShipBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Ship.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/SwimAble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/VehicleController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/VehicleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/VehicleFinder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/VehicleModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/com/Homework_11_10_18/VehicleView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/menu.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/menu_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/classes/menu_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/ControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/LanguageEnumTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/MenuItemTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/PlaneTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/VehicleControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/target/test-classes/com/Homework_11_10_18/VehicleFinderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/соm/Task1/StoneForNecklaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/FibonacciTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/IntervalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/IntervalTest.java" afterDir="false" />
@@ -36,6 +71,17 @@
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/соm/Task1/PreciousStone$PreciousStoneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/соm/Task1/PreciousStone$PreciousStoneBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/соm/Task1/PreciousStone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/соm/Task1/PreciousStone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/соm/Task1/SemiPreciousStone$SemiPreciousStoneBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/соm/Task1/SemiPreciousStone$SemiPreciousStoneBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/соm/Task1/SemiPreciousStone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/соm/Task1/SemiPreciousStone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/соm/Task1/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/соm/Task1/Stone.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,59 +91,62 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Task1$StoneForNecklaceTest.ic" NAME="StoneForNecklaceTest Coverage Results" MODIFIED="1541072164726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>соm.Task1.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1740776580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="26" />
           <entry key="log" value="3" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="26" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1841" />
-          <entry key="xml" value="8" />
+          <entry key="java" value="2201" />
+          <entry key="txt" value="17" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1841" />
-          <entry key="XML" value="8" />
+          <entry key="JAVA" value="2201" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            <state relative-caret-position="531">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,22 +155,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+            <state relative-caret-position="276">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#382#383#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,57 +177,58 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/соm/Task1/StoneForNecklaceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="93" column="92" selection-start-line="93" selection-start-column="92" selection-end-line="93" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Enums/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/StoneController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+            <state relative-caret-position="129">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1790#1791#0" expanded="true" />
-                <element signature="e#1833#1834#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/error.log">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="2122" column="44" selection-start-line="2122" selection-start-column="22" selection-end-line="2122" selection-end-column="44" />
-              <folding>
-                <element signature="e#78006#78007#0" expanded="true" />
-                <element signature="e#78050#78051#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="269">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -203,10 +245,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="-35">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,6 +263,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -234,16 +279,17 @@
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStoneName.java" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/Enums/Color.java" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/Enums/SemiPreciousStoneName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/Diaphaneity.java" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/WrongInputData.java" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/StoneController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java" />
         <option value="$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/соm/Task1/StoneForNecklaceTest.java" />
       </list>
     </option>
   </component>
@@ -258,7 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -325,25 +370,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541032711645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541072162163" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="соm.Task1" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="соm.Task1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="соm.Task1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OneDrive - UNICYB\java_external_2018\Task1\src\main\resources" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="соm.Task1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,9 +412,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="соm.Task1.App" />
+  <component name="RunManager" selected="JUnit.StoneForNecklaceTest">
+    <configuration name="StoneForNecklaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
@@ -368,13 +421,90 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="соm.Task1" />
+      <option name="MAIN_CLASS_NAME" value="соm.Task1.StoneForNecklaceTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StoneForNecklaceTest.clean_fillList_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="соm.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="соm.Task1" />
+      <option name="MAIN_CLASS_NAME" value="соm.Task1.StoneForNecklaceTest" />
+      <option name="METHOD_NAME" value="clean_fillList_empty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoneForNecklaceTest.priceStones_correctList_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="соm.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="соm.Task1" />
+      <option name="MAIN_CLASS_NAME" value="соm.Task1.StoneForNecklaceTest" />
+      <option name="METHOD_NAME" value="priceStones_correctList_12" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoneForNecklaceTest.priceStones_correctList_1251000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="соm.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="соm.Task1" />
+      <option name="MAIN_CLASS_NAME" value="соm.Task1.StoneForNecklaceTest" />
+      <option name="METHOD_NAME" value="priceStones_correctList_1251000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoneForNecklaceTest.sortByPrice_unsorted_sorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="соm.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="соm.Task1" />
+      <option name="MAIN_CLASS_NAME" value="соm.Task1.StoneForNecklaceTest" />
+      <option name="METHOD_NAME" value="sortByPrice_unsorted_sorted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StoneForNecklaceTest.priceStones_correctList_12" />
+      <item itemvalue="JUnit.StoneForNecklaceTest.priceStones_correctList_1251000" />
+      <item itemvalue="JUnit.StoneForNecklaceTest.sortByPrice_unsorted_sorted" />
+      <item itemvalue="JUnit.StoneForNecklaceTest" />
+      <item itemvalue="JUnit.StoneForNecklaceTest.clean_fillList_empty" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.StoneForNecklaceTest" />
+        <item itemvalue="JUnit.StoneForNecklaceTest.clean_fillList_empty" />
+        <item itemvalue="JUnit.StoneForNecklaceTest.sortByPrice_unsorted_sorted" />
+        <item itemvalue="JUnit.StoneForNecklaceTest.priceStones_correctList_1251000" />
+        <item itemvalue="JUnit.StoneForNecklaceTest.priceStones_correctList_12" />
       </list>
     </recent_temporary>
   </component>
@@ -389,43 +519,78 @@
       <option name="presentableId" value="Default" />
       <updated>1541012143548</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1541070168864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541070168864</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StoneForNecklaceTest_priceStones_correctList_12 - 2018.11.01 at 13h 14m 15s.xml">
+      <configuration name="StoneForNecklaceTest.priceStones_correctList_12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoneForNecklaceTest_priceStones_correctList_1251000 - 2018.11.01 at 13h 14m 47s.xml">
+      <configuration name="StoneForNecklaceTest.priceStones_correctList_1251000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoneForNecklaceTest_sortByPrice_unsorted_sorted - 2018.11.01 at 13h 24m 51s.xml">
+      <configuration name="StoneForNecklaceTest.sortByPrice_unsorted_sorted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoneForNecklaceTest_sortByPrice_unsorted_sorted - 2018.11.01 at 13h 26m 44s.xml">
+      <configuration name="StoneForNecklaceTest.sortByPrice_unsorted_sorted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoneForNecklaceTest - 2018.11.01 at 13h 27m 06s.xml">
+      <configuration name="StoneForNecklaceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoneForNecklaceTest_clean_fillList_empty - 2018.11.01 at 13h 30m 26s.xml">
+      <configuration name="StoneForNecklaceTest.clean_fillList_empty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StoneForNecklaceTest - 2018.11.01 at 13h 33m 14s.xml">
+      <configuration name="StoneForNecklaceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28926176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32939914" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32939914" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.26778522" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
@@ -481,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Enums/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Enums/SemiPreciousStoneName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -502,56 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="2122" column="44" selection-start-line="2122" selection-start-column="22" selection-end-line="2122" selection-end-column="44" />
-          <folding>
-            <element signature="e#78006#78007#0" expanded="true" />
-            <element signature="e#78050#78051#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/info.log" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -562,12 +671,67 @@
     <entry file="file://$PROJECT_DIR$/error.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="34748">
+          <caret line="2122" column="44" selection-start-line="2122" selection-start-column="22" selection-end-line="2122" selection-end-column="44" />
+          <folding>
+            <element signature="e#78006#78007#0" expanded="true" />
+            <element signature="e#78050#78051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/StoneForNecklace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Enums/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/PreciousStone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -579,44 +743,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/Stone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/StoneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        <state relative-caret-position="129">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/соm/Task1/SemiPreciousStone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/соm/Task1/StoneForNecklaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="93" column="92" selection-start-line="93" selection-start-column="92" selection-end-line="93" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

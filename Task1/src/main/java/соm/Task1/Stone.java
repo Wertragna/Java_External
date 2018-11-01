@@ -4,6 +4,7 @@ package соm.Task1;
 import соm.Task1.Enums.Color;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public  abstract class Stone {
     private int caratWeight;
@@ -32,6 +33,22 @@ public  abstract class Stone {
 
     public Diaphaneity getDiaphaneity() {
         return diaphaneity;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Stone stone = (Stone) o;
+        return caratWeight == stone.caratWeight &&
+                color == stone.color &&
+                Objects.equals(price, stone.price) &&
+                diaphaneity == stone.diaphaneity;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(caratWeight, color, price, diaphaneity);
     }
 
     @Override

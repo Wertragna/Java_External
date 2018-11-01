@@ -19,7 +19,8 @@ public class StoneForNecklace {
     public void addStone(Stone stone){
         stones.add(stone);
     }
-    public void cleanStone(Stone stone){
+
+    public void cleanStone(){
         stones.clear();
     }
 
