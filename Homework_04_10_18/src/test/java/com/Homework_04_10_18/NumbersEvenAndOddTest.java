@@ -19,19 +19,19 @@ public class NumbersEvenAndOddTest {
     }
 
     @Test
-    public void sumEvenNumbers() {
+    public void sumEvenNumbers_start0end10_30() {
         final int EXPECTED_SUM=30;
         assertEquals(EXPECTED_SUM,NumbersEvenAndOdd.sumEvenNumbers(interval));
     }
 
     @Test
-    public void sumOddNumbers() {
+    public void sumOddNumbers_start0end10_25() {
         final int EXPECTED_SUM=25;
         assertEquals(EXPECTED_SUM,NumbersEvenAndOdd.sumOddNumbers(interval));
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
         interval = null;
     }
 }

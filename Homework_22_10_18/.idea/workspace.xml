@@ -2,49 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d729db-9f1d-42ab-b167-732b133e3589" name="Default Changelist" comment="Initial commit with added MyStack and Tests">
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/data/vehicles.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/GenericSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/LanguageEnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/MenuItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/menu_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/Diaphaneity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/Necklace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/PreciousStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/PreciousStoneName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/SemiPreciousStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/SemiPreciousStoneName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/Stone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/data/demo.data" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/data/demo.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/data/vehicles.data" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/data/vehicles.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/log/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/log/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/BetMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/BetMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalArgumentsOfConsoleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfConsoleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalArgumentsOfVehicleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfVehicleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalItemOfMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalItemOfMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/LanguageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Enums/LanguageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Enums/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/GenericSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/GenericSerialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/resources/menu_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/menu_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/PlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/InToPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/Lexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_22_10_18/PostfixCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/InToPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/MyStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Homework_22_10_18/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Homework_22_10_18/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Homework_22_10_18/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,13 +60,14 @@
     <session id="1078030227">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -216,8 +196,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="83" column="51" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="51" />
+            <state relative-caret-position="519">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,7 +208,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="544">
               <caret line="32" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
@@ -274,10 +254,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="width" value="1340" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -285,9 +265,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,7 +332,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540884630676" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Igor/JavaExternal/Homework_23_10_18" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Igor/JavaExternal/Homework_11_10_18" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -534,14 +514,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33955225" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32939914" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -668,13 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="method#iterator#0;class#MyStack#0" />
-            <element signature="method#push#0;class#MyStack#0" />
-            <element signature="method#peek#0;class#MyStack#0" />
-            <element signature="method#pop#0;class#MyStack#0" />
-            <element signature="method#grow#0;class#MyStack#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,15 +727,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="544">
           <caret line="32" column="17" selection-start-line="27" selection-start-column="4" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_22_10_18/LexerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="83" column="51" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="51" />
+        <state relative-caret-position="519">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

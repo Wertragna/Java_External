@@ -14,7 +14,6 @@ import java.util.*;
 
 
 public class VehicleController {
-    // Constructor
     VehicleModel model;
     VehicleView view;
     ResourceBundle resourceBundle;

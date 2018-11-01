@@ -17,13 +17,13 @@ public class StoneForNecklaceTest {
     StoneForNecklace stoneForNecklace;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp()  {
         stoneForNecklace = new StoneForNecklace();
         fillStoneForNecklace(stoneForNecklace);
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown()  {
         stoneForNecklace= null;
     }
 
@@ -71,17 +71,12 @@ public class StoneForNecklaceTest {
                 .price(new BigDecimal(1000000))
                 .diaphaneity(Diaphaneity.Transparent)
                 .build());
-
-
-
-
-
         stoneForNecklace.sortByPrice();
         assertThat(stoneForNecklace.getStones(), equalTo(expected));
     }
 
     @Test
-    public void filterByDiapheneity_Opaque_filtredList() {
+    public void filterByDiapheneity_Opaque_filteredList() {
         ArrayList<Stone> expected = new ArrayList<>();
         expected.add(new SemiPreciousStone
                 .SemiPreciousStoneBuilder(SemiPreciousStoneName.Jasper)

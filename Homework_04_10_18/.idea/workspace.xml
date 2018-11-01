@@ -2,40 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a4bf822-0bc1-409b-ad7d-c1e8a5036ef6" name="Default Changelist" comment="renamed">
-      <change afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/MenuItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/Homewor_31_10_18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/test/java/com/Homewor_31_10_18/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/test-classes/com/Homewor_31_10_18/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/FibonacciTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/IntervalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/IntervalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/log/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/log/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalArgumentsOfConsoleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfConsoleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalArgumentsOfVehicleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalArgumentsOfVehicleException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/IllegalItemOfMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Exceptions/IllegalItemOfMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/LanguageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Enums/LanguageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Enums/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/resources/menu_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/menu_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/PlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/InToPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/InToPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/Lexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/PostfixCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/com/Homework_22_10_18/PostfixCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/InToPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/InToPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/MyStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/MyStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/com/Homework_22_10_18/PostfixCalcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/com/Homework_22_10_18/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/com/Homework_22_10_18/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/com/Homework_22_10_18/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/com/Homework_22_10_18/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/test-classes/com/Homework_22_10_18/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/test-classes/com/Homework_22_10_18/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/StoneForNecklace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/StoneForNecklace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/src/test/java/соm/Task1/StoneForNecklaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/src/test/java/соm/Task1/StoneForNecklaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,39 +115,39 @@
     <session id="-767553628">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1228" />
+          <entry key="java" value="1305" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1228" />
+          <entry key="JAVA" value="1305" />
           <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="17" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -162,10 +156,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,19 +168,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Interval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="306">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -194,12 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -225,8 +206,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/IntervalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,11 +215,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Number.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -286,18 +279,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Interval.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/IntervalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Number.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/IntervalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/FibonacciTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="-8" />
     <option name="width" value="1340" />
     <option name="height" value="1050" />
   </component>
@@ -307,19 +300,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Task041018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Task041018" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,10 +363,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Task041018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Task041018" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540972271517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541081995195" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -605,10 +598,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16375838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -700,10 +693,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Interval.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -728,27 +745,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/IntervalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -757,33 +757,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="204">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/NumbersEvenAndOdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_04_10_18/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>

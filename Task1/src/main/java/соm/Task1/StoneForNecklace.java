@@ -32,9 +32,11 @@ public class StoneForNecklace {
     public BigDecimal priceStones(){
         return stones.stream().map(Stone::getPrice).reduce((x,y)->x.add(y)).get();
     }
+
     public void sortByPrice(){
         Collections.sort(stones, Comparator.comparing(Stone::getPrice));
     }
+
     public ArrayList<Stone> filterByDiapheneity(Diaphaneity diaphaneity){
         ArrayList<Stone> filtered= new ArrayList<>(stones);
         filtered.removeIf(stone -> !stone.getDiaphaneity().equals(diaphaneity));
