@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.*;
-import java.util.ArrayList;
+
 
 public class GenericSerialization<T extends Serializable> {
     final  Logger logger = LogManager.getLogger("serialization");

@@ -29,3 +29,21 @@
 2018-10-31 12:56:47.689 [main] ERROR VehicleFinder - объект не восстановлен
 2018-10-31 12:57:22.216 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Vehicle; local class incompatible: stream classdesc serialVersionUID = -1655462626976715822, local class serialVersionUID = -1368310176841007410
 2018-10-31 12:57:22.240 [main] ERROR VehicleFinder - объект не восстановлен
+2018-10-31 13:36:59.871 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Plane; local class incompatible: stream classdesc serialVersionUID = 2185790090529207124, local class serialVersionUID = 2180766147139152181
+2018-10-31 13:37:11.500 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Plane; local class incompatible: stream classdesc serialVersionUID = 2185790090529207124, local class serialVersionUID = 2180766147139152181
+2018-10-31 13:38:06.070 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Plane; local class incompatible: stream classdesc serialVersionUID = 2185790090529207124, local class serialVersionUID = 2180766147139152181
+2018-10-31 13:38:39.857 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Plane; local class incompatible: stream classdesc serialVersionUID = 2185790090529207124, local class serialVersionUID = 2180766147139152181
+2018-11-01 15:42:38.062 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.071 [main] ERROR VehicleFinder - объект не восстановлен
+2018-11-01 15:42:38.072 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.072 [main] ERROR VehicleFinder - объект не восстановлен
+2018-11-01 15:42:38.084 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.085 [main] ERROR VehicleFinder - объект не восстановлен
+2018-11-01 15:42:38.088 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.088 [main] ERROR VehicleFinder - объект не восстановлен
+2018-11-01 15:42:38.092 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.093 [main] ERROR VehicleFinder - объект не восстановлен
+2018-11-01 15:42:38.097 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.098 [main] ERROR VehicleFinder - объект не восстановлен
+2018-11-01 15:42:38.102 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404
+2018-11-01 15:42:38.116 [main] ERROR serialization - Несовпадение версий классов: java.io.InvalidClassException: com.Homework_11_10_18.Ship; local class incompatible: stream classdesc serialVersionUID = -3812439388504576913, local class serialVersionUID = -1759982298246271404

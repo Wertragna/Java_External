@@ -4,6 +4,7 @@ import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class Plane extends Vehicle implements FlyAble, Serializable {
     private int height;
@@ -12,6 +13,21 @@ public class Plane extends Vehicle implements FlyAble, Serializable {
     public int getHeight() {
 
         return height;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Plane plane = (Plane) o;
+        return height == plane.height &&
+                numberOfPassengers == plane.numberOfPassengers;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), height, numberOfPassengers);
     }
 
     public void setHeight(int height) {

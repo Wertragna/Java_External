@@ -10,7 +10,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.InvalidObjectException;
-import java.math.BigDecimal;
 import java.util.*;
 
 
@@ -32,7 +31,7 @@ public class VehicleController {
 
     public void fillVehicles(){
         try {
-           /* model.addVehicle(new Plane.PlaneBuilder(350, 2010, BigDecimal.valueOf(1000))
+            /*model.addVehicle(new Plane.PlaneBuilder(350, 2010, BigDecimal.valueOf(1000))
                     .numberOfPassengers(800)
                     .height(12000)
                     .build()
@@ -63,15 +62,13 @@ public class VehicleController {
             model.addVehicle(new AmphibiousCar(250, 2018, BigDecimal.valueOf(170000)));*/
             GenericSerialization<ArrayList<Vehicle>> sr = new GenericSerialization<>();
             String file = "data\\vehicles.data";
-            //sr.serialization(model.vehicleList, file);
+           // sr.serialization(model.vehicleList, file);
             model.vehicleList = sr.deserialization(file);
            // System.out.println(model.vehicleList.get(0).getClass());
         }
-            catch (InvalidObjectException e){
-                logger.error(e.getMessage());
-            }
-
-
+        catch (InvalidObjectException e){
+            logger.error(e.getMessage());
+        }
         catch (IllegalArgumentsOfVehicleException e){
             logger.error(e.getMessage());
         }
@@ -79,28 +76,26 @@ public class VehicleController {
 
     public void processUser() {
             LocalizeMenu();
-            while(isNotExit());
+            while(true){
+                try{
+                    view.showMenu();
+                    int id = getUserChoice(resourceBundle.getString("label.chooseMenu"));
+                    if(!processMenu(chooseMenuItem(id)))
+                        break;
+                }
+                catch (IllegalArgumentException| IllegalItemOfMenu e) {
+                    logger.error(e.getMessage());
+                }
+            }
     }
 
-
-    private boolean isNotExit(){
-        try{
-            view.showMenu();
-            int id = getUserChoice(resourceBundle.getString("label.chooseMenu"));
-            return menu(chooseMenuItem(id));
-        }
-        catch (IllegalArgumentException| IllegalItemOfMenu e) {
-            logger.error(e.getMessage());
-        }
-        return true;
-    }
 
 
     public MenuItem chooseMenuItem(int idMenuItem) {
         return MenuItem.getEnum(idMenuItem);
     }
 
-    private boolean menu(MenuItem m) {
+    private boolean processMenu(MenuItem m) {
         int maxSpeed;
         int minSpeed;
         int height;

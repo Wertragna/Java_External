@@ -33,7 +33,8 @@ public class PlaneTest {
                 .build();
     }
     @After
-    public  void  clean(){
+    public  void  clean()
+    {
         plane = null;
     }
 }

@@ -4,6 +4,7 @@ import com.Homework_11_10_18.Exceptions.IllegalArgumentsOfVehicleException;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class Ship extends Vehicle implements SwimAble, Serializable {
     private int numberOfPassengers;
@@ -68,6 +69,21 @@ public class Ship extends Vehicle implements SwimAble, Serializable {
         setPrice(builder.price);
         setSpeed(builder.speed);
         setYearOfManufactured(builder.yearOfManufacture);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Ship ship = (Ship) o;
+        return numberOfPassengers == ship.numberOfPassengers &&
+                port == ship.port;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), numberOfPassengers, port);
     }
 
     @Override
