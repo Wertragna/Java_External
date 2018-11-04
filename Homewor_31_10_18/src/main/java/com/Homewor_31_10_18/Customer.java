@@ -31,7 +31,6 @@ public class Customer extends Thread {
         currentCashier = findShortestQueue();
         currentCashier.addCustomer(this);
         while (!isServed){
-
                 if (this != currentCashier.getCustomerQueue().peek()) {
                     synchronized (this){
                         Cashier oldCashier = currentCashier;
@@ -64,10 +63,10 @@ public class Customer extends Thread {
         return  cashier;
     }
     private Cashier findFreeQueue () {
-        for (int i = 0; i < cashiers.size(); i++) {
-            int currentQueueLength = cashiers.get(i).getCustomerQueue().size();
+        for (Cashier c: cashiers) {
+            int currentQueueLength = c.getCustomerQueue().size();
             if (currentQueueLength == 0) {
-                return cashiers.get(i);
+                return c;
             }
         }
         return null;
