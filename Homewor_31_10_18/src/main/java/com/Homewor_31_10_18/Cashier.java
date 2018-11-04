@@ -1,7 +1,6 @@
 package com.Homewor_31_10_18;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
 public class Cashier extends Thread {
 
@@ -42,8 +41,8 @@ public class Cashier extends Thread {
                     currentCustomer = customerQueue.peek();
                     System.out.println(this + " have start to serve " + currentCustomer);
                     currentCustomer.serve();
-                    Thread.sleep(100 * currentCustomer.getTaskQty());
-                    System.out.println( this.getName()+" served " +currentCustomer.getTaskQty()+ " tasks of " + currentCustomer.getName() );
+                    Thread.sleep(100 * currentCustomer.getNumberOfTasks());
+                    System.out.println( this.getName()+" served " +currentCustomer.getNumberOfTasks()+ " tasks of " + currentCustomer.getName() );
                     customerQueue.pop();
                 }
             } catch (InterruptedException e) {

@@ -5,20 +5,20 @@ import java.util.List;
 public class Customer extends Thread {
 
     volatile List<Cashier> cashiers;
-    int taskQty;
+    int numberOfTasks;
     Cashier currentCashier;
     volatile boolean isServed;
 
-    public Customer(String name, List<Cashier> cashiers, int taskQty) {
+    public Customer(String name, List<Cashier> cashiers, int numberOfTasks) {
         super(name);
         this.cashiers = cashiers;
-        this.taskQty = taskQty;
+        this.numberOfTasks = numberOfTasks;
         isServed = false;
         start();
     }
 
-    public int getTaskQty() {
-        return taskQty;
+    public int getNumberOfTasks() {
+        return numberOfTasks;
     }
 
 
