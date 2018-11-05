@@ -38,7 +38,6 @@ public class VehicleFinderTest {
                 .height(6000)
                 .build()
         );
-
         assertThat(VehicleFinder.getPlanesWithHeightMoreThanXYearOfManufactureAfterY(vehicles,700,2005),equalTo(expected));
     }
 

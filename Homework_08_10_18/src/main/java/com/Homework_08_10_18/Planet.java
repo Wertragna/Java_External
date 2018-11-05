@@ -7,6 +7,8 @@ public class Planet {
     private double massKg;
     private double radiusKm;
     final double EPS = Math.pow(10,-5);
+    private String name;
+
     Set <Moon> moons;
 
     public Planet(String planetName, double massKg, double radiusKm) {
@@ -19,7 +21,8 @@ public class Planet {
         return name;
     }
 
-    private String name;
+
+
     public void addMoon(Moon moon){
         moons.add(moon);
         if(!this.equals(moon.getPlanet())){

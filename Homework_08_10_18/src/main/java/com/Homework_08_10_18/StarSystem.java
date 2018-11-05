@@ -6,8 +6,9 @@ import java.util.List;
 public class StarSystem {
     private List<Planet> planets;
     private Star star;
-    public StarSystem(String nameStarSytem,Star star) {
-        name=nameStarSytem;
+
+    public StarSystem(String nameStarSystem,Star star) {
+        name=nameStarSystem;
         this.star = star;
         planets = new ArrayList<>();
     }
@@ -15,6 +16,7 @@ public class StarSystem {
     public List<Planet> getPlanets() {
         return planets;
     }
+
     public void addPlanet(Planet planet){
         planets.add(planet);
     }

@@ -2,34 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a25e2cd-a17a-4687-a0a5-8daabf66c04a" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/Homewor_31_10_18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/test/java/com/Homewor_31_10_18/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/test-classes/com/Homewor_31_10_18/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/FibonacciTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/IntervalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/IntervalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/src/test/java/com/Homework_04_10_18/NumbersEvenAndOddTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/StarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/StarSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.InToPostTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.InToPostTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.LexerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.LexerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.MyStackTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.MyStackTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.PostfixCalcTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.PostfixCalcTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.InToPostTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.InToPostTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.LexerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.LexerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.PostfixCalcTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.PostfixCalcTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/StoneForNecklace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/src/main/java/соm/Task1/StoneForNecklace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/src/test/java/соm/Task1/StoneForNecklaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/src/test/java/соm/Task1/StoneForNecklaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,17 +62,22 @@
     <session id="468271695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -87,7 +88,7 @@
           <entry key="log" value="2" />
           <entry key="md" value="1" />
           <entry key="properties" value="861" />
-          <entry key="txt" value="247" />
+          <entry key="txt" value="271" />
           <entry key="xml" value="238" />
         </counts>
       </usages-collector>
@@ -95,7 +96,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="7153" />
-          <entry key="PLAIN_TEXT" value="309" />
+          <entry key="PLAIN_TEXT" value="333" />
           <entry key="Properties" value="861" />
           <entry key="XML" value="238" />
         </counts>
@@ -105,7 +106,7 @@
           <entry key="class" value="10" />
           <entry key="data" value="6" />
           <entry key="iml" value="1" />
-          <entry key="java" value="192" />
+          <entry key="java" value="195" />
           <entry key="log" value="63" />
           <entry key="md" value="1" />
           <entry key="properties" value="38" />
@@ -116,7 +117,7 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="192" />
+          <entry key="JAVA" value="195" />
           <entry key="PLAIN_TEXT" value="70" />
           <entry key="Properties" value="38" />
           <entry key="XML" value="34" />
@@ -126,6 +127,7 @@
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.delete.local" value="1" />
           <entry key="git.branch.merge" value="1" />
         </counts>
       </usages-collector>
@@ -133,28 +135,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3534#3535#0" expanded="true" />
-                <element signature="e#3585#3586#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="69" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/LanguageEnumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,11 +168,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/PlaneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="544">
               <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,11 +210,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/GenericSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="731">
               <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/MenuItemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -292,18 +304,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Plane.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/GenericSerialization.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Ship.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/PlaneTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/menu_ru.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1340" />
+    <option name="width" value="1787" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -312,6 +324,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -379,6 +392,14 @@
             <path>
               <item name="Homework_11_10_18" type="b2602c69:ProjectViewProjectNode" />
               <item name="Homework_11_10_18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework_11_10_18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework_11_10_18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework_11_10_18" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -386,11 +407,10 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541082138135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541084140318" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Homework_04_10_18" />
@@ -640,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541081997067</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="got rid of useless file">
+      <created>1541082229974</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541082229974</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -679,7 +706,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14563759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -688,7 +715,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.26713288" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25594404" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25594404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -874,20 +901,10 @@
     <entry file="file://$PROJECT_DIR$/data/vehicles.data">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/LanguageEnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="e#687#688#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,11 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,9 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,13 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="49" column="17" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/MenuItemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -962,10 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-          <folding>
-            <element signature="e#2112#2113#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,10 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,17 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-          <folding>
-            <element signature="e#2552#2553#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/ControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="69" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1023,9 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="32" column="38" selection-start-line="28" selection-start-column="6" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,43 +1014,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/menu_ru.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/menu_ru.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3534#3535#0" expanded="true" />
-            <element signature="e#3585#3586#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/ControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="69" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/PlaneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="544">
           <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1103,11 +1075,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/GenericSerialization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="731">
           <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/MenuItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1115,6 +1091,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/LanguageEnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
