@@ -2,30 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a25e2cd-a17a-4687-a0a5-8daabf66c04a" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Punctuation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/PunctuationOrWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/TextProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/StarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_08_10_18/src/main/java/com/Homework_08_10_18/StarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.InToPostTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.InToPostTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.LexerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.LexerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.MyStackTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.MyStackTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.PostfixCalcTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/TEST-com.Homework_22_10_18.PostfixCalcTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.InToPostTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.InToPostTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.LexerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.LexerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.PostfixCalcTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/surefire-reports/com.Homework_22_10_18.PostfixCalcTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/target/test-classes/соm/Task1/StoneForNecklaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/target/test-classes/соm/Task1/StoneForNecklaceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,13 +61,13 @@
     <session id="468271695">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
@@ -77,7 +76,7 @@
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -110,7 +109,7 @@
           <entry key="log" value="63" />
           <entry key="md" value="1" />
           <entry key="properties" value="38" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -120,7 +119,7 @@
           <entry key="JAVA" value="195" />
           <entry key="PLAIN_TEXT" value="70" />
           <entry key="Properties" value="38" />
-          <entry key="XML" value="34" />
+          <entry key="XML" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -136,18 +135,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -156,11 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/LanguageEnumTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -180,22 +176,22 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/menu_ru.properties">
-          <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
+          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/menu_en.properties">
-          <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="16" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
+          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -298,7 +294,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/BetMobile.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleControllerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/Vehicle.java" />
@@ -310,6 +305,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/menu_ru.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -324,8 +320,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,7 +400,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -703,10 +699,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14563759" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -796,12 +792,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/data_en.properties" />
     <entry file="file://$PROJECT_DIR$/target/classes/menu_en.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/menu.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/Homework_11_10_18/Model.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/builders/JUnit4Builder.class">
@@ -943,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/ListOfVehicleByFlyMoveSwim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1007,12 +996,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/menu.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/menu_ru.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_11_10_18/VehicleController.java">
@@ -1051,20 +1040,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/menu_ru.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/menu_en.properties">
-      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="16" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ResourceBundle.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1098,6 +1087,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="42" selection-end-column="17" />
         </state>
       </provider>
     </entry>

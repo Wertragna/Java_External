@@ -2,13 +2,16 @@ package com.OtherRealization;
 
 
 import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Customer extends Thread {
 
-    volatile List<Cashier> cashiers;
-    int numberOfTasks;
-    Cashier currentCashier;
-    boolean isServed;
+    private List<Cashier> cashiers;
+    private int numberOfTasks;
+    private Cashier currentCashier;
+    private Lock lock = new ReentrantLock();
+    private volatile boolean isServed;
 
     public Customer(String name, List<Cashier> cashiers, int numberOfTasks) {
         super(name);
@@ -30,31 +33,23 @@ public class Customer extends Thread {
     @Override
     public void run() {
         currentCashier = findShortestQueue();
-        try {
-            currentCashier.addCustomer(this);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        while (!isServed){
-                if (this != currentCashier.getCustomerQueue().peek()) {
-                    Cashier oldCashier = currentCashier;
-                    Cashier bufferCashier = findFreeQueue();
-                    if (bufferCashier != null) {
+        currentCashier.addCustomer(this);
+        while (!isServed) {
+            Cashier oldCashier = currentCashier;
+            Cashier bufferCashier = findFreeQueue();
+            if (bufferCashier != null) {
+                lock.lock();
+                    if (!isServed&&this!= currentCashier.getCustomerQueue().peek()) {
                         currentCashier = bufferCashier;
                         oldCashier.removeCustomer(this);
-                        try {
-                            currentCashier.addCustomer(this);
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
+                        currentCashier.addCustomer(this);
                     }
-
-                }
+                lock.unlock();
             }
         }
-
+    }
     private  Cashier  findShortestQueue() {
-        Cashier cashier = cashiers.get(1);
+        Cashier cashier = cashiers.get(0);
         int shortestQueueLength = Integer.MAX_VALUE;
         for (Cashier c:cashiers) {
             int currentQueueLength = c.getCustomerQueue().size();

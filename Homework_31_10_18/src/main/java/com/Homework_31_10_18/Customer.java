@@ -4,10 +4,10 @@ import java.util.List;
 
 public class Customer extends Thread {
 
-    volatile List<Cashier> cashiers;
-    int numberOfTasks;
-    Cashier currentCashier;
-    volatile boolean isServed;
+    private List<Cashier> cashiers;
+    private int  numberOfTasks;
+    private Cashier currentCashier;
+    private volatile boolean isServed;
 
     public Customer(String name, List<Cashier> cashiers, int numberOfTasks) {
         super(name);
@@ -30,20 +30,20 @@ public class Customer extends Thread {
     public void run() {
         currentCashier = findShortestQueue();
         currentCashier.addCustomer(this);
-        while (!isServed){
-                if (this != currentCashier.getCustomerQueue().peek()) {
-                    synchronized (this){
-                        Cashier oldCashier = currentCashier;
-                        Cashier bufferCashier = findFreeQueue();
-                        if (bufferCashier != null) {
-                            currentCashier = bufferCashier;
-                            oldCashier.removeCustomer(this);
-                            currentCashier.addCustomer(this);
-                        }
+        while (!isServed) {
+            Cashier oldCashier = currentCashier;
+            Cashier bufferCashier = findFreeQueue();
+            if (bufferCashier != null) {
+                synchronized (this) {
+                    if (!isServed&&this!= currentCashier.getCustomerQueue().peek()) {
+                        currentCashier = bufferCashier;
+                        oldCashier.removeCustomer(this);
+                        currentCashier.addCustomer(this);
                     }
                 }
             }
         }
+    }
 
     private  Cashier  findShortestQueue() {
         Cashier cashier = cashiers.get(1);

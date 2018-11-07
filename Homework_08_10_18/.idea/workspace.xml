@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b0bd12-6ba3-41f2-91ff-dace000a2a11" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/OtherRealization/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/src/main/java/com/Homewor_31_10_18/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Cashier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homewor_31_10_18/target/classes/com/Homewor_31_10_18/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_04_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_08_10_18/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_08_10_18/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_08_10_18/StarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_08_10_18/StarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_11_10_18/src/test/java/com/Homework_11_10_18/VehicleFinderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Punctuation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/PunctuationOrWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/TextProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task2/src/main/java/com/Task2/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/Homework_31_10_18/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/target/classes/соm/Task1/StoneForNecklace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task1/target/test-classes/соm/Task1/StoneForNecklaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/target/test-classes/соm/Task1/StoneForNecklaceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,13 +68,14 @@
     <session id="-96341849">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -234,9 +238,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -416,14 +420,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2865772" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28944564" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />

@@ -4,8 +4,8 @@ import java.util.LinkedList;
 
 public class Cashier extends Thread {
 
-    private volatile LinkedList<Customer> customerQueue = new LinkedList<>();
-    volatile Customer currentCustomer;
+    private  LinkedList<Customer> customerQueue = new LinkedList<>();
+    private  Customer currentCustomer;
 
     public Cashier(String name) {
         super(name);
@@ -37,7 +37,7 @@ public class Cashier extends Thread {
                         wait();
                     }
                 }
-                synchronized ( customerQueue.peek()) {
+                synchronized (customerQueue.peek()) {
                     currentCustomer = customerQueue.peek();
                     System.out.println(this + " have start to serve " + currentCustomer);
                     currentCustomer.serve();
@@ -46,7 +46,6 @@ public class Cashier extends Thread {
                     customerQueue.poll();
                 }
             } catch (InterruptedException e) {
-                e.printStackTrace();
             }
         }
     }

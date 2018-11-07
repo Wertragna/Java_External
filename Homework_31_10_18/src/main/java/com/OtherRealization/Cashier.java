@@ -8,7 +8,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class Cashier extends Thread {
 
     private BlockingQueue<Customer> customerQueue = new LinkedBlockingQueue<>();
-    Customer currentCustomer;
+    private Customer currentCustomer;
 
     public Cashier(String name) {
         super(name);
@@ -20,8 +20,12 @@ public class Cashier extends Thread {
         return customerQueue;
     }
 
-    public  void addCustomer(Customer customer) throws InterruptedException {
-        customerQueue.put(customer);
+    public  void addCustomer(Customer customer)  {
+        try {
+            customerQueue.put(customer);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public  void removeCustomer(Customer customer){
