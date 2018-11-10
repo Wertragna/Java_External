@@ -9,7 +9,6 @@ public class Cashier extends Thread {
 
     public Cashier(String name) {
         super(name);
-        this.setDaemon(true);
         start();
     }
 
@@ -39,13 +38,16 @@ public class Cashier extends Thread {
                 }
                 synchronized (customerQueue.peek()) {
                     currentCustomer = customerQueue.peek();
+
                     System.out.println(this + " have start to serve " + currentCustomer);
-                    currentCustomer.serve();
-                    Thread.sleep(100 * currentCustomer.getNumberOfTasks());
+
+                    Thread.sleep(500 * currentCustomer.getNumberOfTasks());
                     System.out.println( this.getName()+" served " +currentCustomer.getNumberOfTasks()+ " tasks of " + currentCustomer.getName() );
+                    currentCustomer.serve();
                     customerQueue.poll();
                 }
             } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
     }

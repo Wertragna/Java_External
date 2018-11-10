@@ -10,7 +10,7 @@ public class Customer extends Thread {
     private List<Cashier> cashiers;
     private int numberOfTasks;
     private Cashier currentCashier;
-    private Lock lock = new ReentrantLock();
+    public Lock lock = new ReentrantLock();
     private volatile boolean isServed;
 
     public Customer(String name, List<Cashier> cashiers, int numberOfTasks) {
@@ -38,13 +38,10 @@ public class Customer extends Thread {
             Cashier oldCashier = currentCashier;
             Cashier bufferCashier = findFreeQueue();
             if (bufferCashier != null) {
-                lock.lock();
-                    if (!isServed&&this!= currentCashier.getCustomerQueue().peek()) {
-                        currentCashier = bufferCashier;
-                        oldCashier.removeCustomer(this);
-                        currentCashier.addCustomer(this);
-                    }
-                lock.unlock();
+                if(oldCashier.removeCustomer(this)){
+                    currentCashier = bufferCashier;
+                    currentCashier.addCustomer(this);
+                }
             }
         }
     }

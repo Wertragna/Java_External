@@ -1,7 +1,5 @@
 package com.OtherRealization;
 
-import com.Homework_31_10_18.Cashier;
-import com.Homework_31_10_18.Customer;
 
 import java.util.ArrayList;
 import java.util.List;

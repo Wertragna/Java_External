@@ -4,15 +4,19 @@ package com.OtherRealization;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Cashier extends Thread {
 
     private BlockingQueue<Customer> customerQueue = new LinkedBlockingQueue<>();
     private Customer currentCustomer;
+    private Lock lock = new ReentrantLock();
 
     public Cashier(String name) {
         super(name);
-        this.setDaemon(true);
+        //this.setDaemon(true);
         start();
     }
 
@@ -28,20 +32,20 @@ public class Cashier extends Thread {
         }
     }
 
-    public  void removeCustomer(Customer customer){
-        customerQueue.remove(customer);
+    public  boolean removeCustomer(Customer customer){
+       return customerQueue.remove(customer);
     }
 
     @Override
     public void run() {
         while (true) {
             try {
-                currentCustomer = customerQueue.peek();
+
+                currentCustomer = customerQueue.take();
                 System.out.println(this + " have start to serve " + currentCustomer);
-                currentCustomer.serve();
-                Thread.sleep(100 * currentCustomer.getNumberOfTasks());
+                this.sleep(100 * currentCustomer.getNumberOfTasks());
                 System.out.println( this.getName()+" served " +currentCustomer.getNumberOfTasks()+ " tasks of " + currentCustomer.getName() );
-                customerQueue.poll();
+                currentCustomer.serve();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

@@ -55,7 +55,7 @@ public class Customer extends Thread {
             }
             else {
                 if (currentQueueLength < shortestQueueLength) {
-                    cashier =c;
+                    cashier = c;
                     shortestQueueLength = currentQueueLength;
                 }
             }
