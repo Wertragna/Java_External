@@ -1,10 +1,7 @@
-package com.Homework_22_10_18;
+package Server.Calculator;
 
+import Server.Calculator.InToPost;
 import org.junit.*;
-
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 import static org.junit.Assert.*;
 

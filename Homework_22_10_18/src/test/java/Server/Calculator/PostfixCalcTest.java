@@ -1,5 +1,6 @@
-package com.Homework_22_10_18;
+package Server.Calculator;
 
+import Server.Calculator.PostfixCalc;
 import org.junit.Before;
 import org.junit.Test;
 

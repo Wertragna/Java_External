@@ -1,4 +1,4 @@
-package com.Homework_22_10_18;
+package Server.Calculator;
 
 public class LexerException extends RuntimeException {
     public LexerException(String message) {

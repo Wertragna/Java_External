@@ -1,11 +1,11 @@
-package com.Homework_22_10_18;
+package Server.Calculator;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple AppServer.
  */
 public class AppTest 
 {

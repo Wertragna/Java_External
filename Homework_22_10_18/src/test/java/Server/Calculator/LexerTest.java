@@ -1,5 +1,7 @@
-package com.Homework_22_10_18;
+package Server.Calculator;
 
+import Server.Calculator.Lexer;
+import Server.Calculator.LexerException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
