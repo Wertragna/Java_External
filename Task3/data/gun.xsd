@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="gun">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="weapon">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="model"/>
+                            <xs:element type="xs:string" name="handly"/>
+                            <xs:element type="xs:string" name="origin"/>
+                            <xs:element type="xs:string" name="material"/>
+                            <xs:element name="ttc">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="range">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="close"/>
+                                                    <xs:enumeration value="average "/>
+                                                    <xs:enumeration value="long "/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element type="xs:int" name="sighting_range"/>
+                                        <xs:element type="xs:boolean" name="yoke"/>
+                                        <xs:element type="xs:boolean" name="optics"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute use="required" type="xs:ID" name="id"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

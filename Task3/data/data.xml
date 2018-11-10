@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gun>
+    <weapon id="ID-1">
+        <model>test string</model>
+        <handly>test string</handly>
+        <origin>test string</origin>
+        <material>test string</material>
+        <ttc>
+            <range>close</range>
+            <sighting_range>9</sighting_range>
+            <yoke>true</yoke>
+            <optics>true</optics>
+        </ttc>
+    </weapon>
+    <weapon id="ID-2">
+        <model>test string</model>
+        <handly>test string</handly>
+        <origin>test string</origin>
+        <material>test string</material>
+        <ttc>
+            <range>close</range>
+            <sighting_range>9</sighting_range>
+            <yoke>true</yoke>
+            <optics>true</optics>
+        </ttc>
+    </weapon>
+</gun>
