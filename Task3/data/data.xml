@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gun>
     <weapon id="ID-1">
-        <model>test string</model>
-        <handly>test string</handly>
+        <model>test string</model>egw
+        <handly>test string</handly>gw
         <origin>test string</origin>
         <material>test string</material>
         <ttc>
-            <range>close</range>
+            <range>close</range>ggwfgf
             <sighting_range>9</sighting_range>
             <yoke>true</yoke>
             <optics>true</optics>
@@ -16,12 +16,12 @@
         <model>test string</model>
         <handly>test string</handly>
         <origin>test string</origin>
-        <material>test string</material>
+        <material>test string</material>werge
         <ttc>
             <range>close</range>
             <sighting_range>9</sighting_range>
-            <yoke>true</yoke>
+            <yoke>true</yoke>sdf
             <optics>true</optics>
-        </ttc>
-    </weapon>
+        </ttc>weg
+    </weapon>asaf
 </gun>

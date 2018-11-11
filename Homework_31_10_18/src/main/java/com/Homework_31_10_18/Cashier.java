@@ -38,9 +38,7 @@ public class Cashier extends Thread {
                 }
                 synchronized (customerQueue.peek()) {
                     currentCustomer = customerQueue.peek();
-
                     System.out.println(this + " have start to serve " + currentCustomer);
-
                     Thread.sleep(500 * currentCustomer.getNumberOfTasks());
                     System.out.println( this.getName()+" served " +currentCustomer.getNumberOfTasks()+ " tasks of " + currentCustomer.getName() );
                     currentCustomer.serve();

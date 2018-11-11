@@ -1,5 +1,6 @@
 package com.Task3;
 
+import com.Task3.SAX.GunSAXBuilder;
 import com.Task3.generated.Gun;
 import com.sun.org.apache.xpath.internal.operations.Variable;
 import org.xml.sax.SAXException;
@@ -27,9 +28,13 @@ import java.util.List;
 public class App 
 {
     public static void main( String[] args ) {
-        String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
+        /*String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         String schemaName = "data/gun.xsd";
         File schemaLocation = new File(schemaName);
-        System.out.println(ValidGunXml.isValid("data/data.xml", schemaName));
+        System.out.println(ValidGunXml.isValid("data/data.xml", schemaName));*/
+
+        GunSAXBuilder gunSAXBuilder = new GunSAXBuilder();
+        gunSAXBuilder.buildListWeapon("data/data.xml");
+        System.out.println (gunSAXBuilder.getWeapons());
     }
 }

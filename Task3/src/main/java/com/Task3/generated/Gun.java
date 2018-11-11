@@ -171,6 +171,17 @@ public class Gun {
         "ttc"
     })
     public static class Weapon {
+        @Override
+        public String toString() {
+            return "Weapon{" +
+                    "model='" + model + '\'' +
+                    ", handly='" + handly + '\'' +
+                    ", origin='" + origin + '\'' +
+                    ", material='" + material + '\'' +
+                    ", ttc=" + ttc +
+                    ", id='" + id + '\'' +
+                    '}';
+        }
 
         @XmlElement(required = true)
         protected String model;
@@ -371,6 +382,15 @@ public class Gun {
             "optics"
         })
         public static class Ttc {
+            @Override
+            public String toString() {
+                return "Ttc{" +
+                        "range='" + range + '\'' +
+                        ", sightingRange=" + sightingRange +
+                        ", yoke=" + yoke +
+                        ", optics=" + optics +
+                        '}';
+            }
 
             @XmlElement(required = true)
             protected String range;
