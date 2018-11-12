@@ -2,6 +2,8 @@ package com.Task3;
 
 import com.Task3.generated.Gun;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
@@ -21,11 +23,62 @@ import static com.Task3.Constants.WEAPON;
 
 public class MyDOMParser {
     public List<Gun.Weapon> getPageListFromXml(String pathToXmlFile) {
+
         List<Gun.Weapon> weapons = new ArrayList<>();
         try {
             NodeList weaponsList = getWeaponNodesFromFile(pathToXmlFile);
             for (int i = 0; i < weaponsList.getLength(); i++) {
-//todo
+                Node weaponNode = weaponsList.item(i);
+                Gun.Weapon currentWeapon = new Gun.Weapon();
+                if (weaponNode.getNodeType() == Node.ELEMENT_NODE) {
+                    Element tempWeapon = (Element) weaponNode;
+                    currentWeapon.setId(tempWeapon.getAttribute("id"));
+                    NodeList weaponChildren = tempWeapon.getChildNodes();
+                    for (int j = 0; j < weaponChildren.getLength(); j++) {
+                        if (weaponChildren.item(j).getNodeType() == Node.ELEMENT_NODE) {
+                            Element tempElement = (Element) weaponChildren.item(j);
+                            switch (tempElement.getTagName()) {
+                                case "model":
+                                    currentWeapon.setModel(tempElement.getTextContent());
+                                    break;
+                                case "handly":
+                                    currentWeapon.setHandly(tempElement.getTextContent());
+                                    break;
+                                case "origin":
+                                    currentWeapon.setOrigin(tempElement.getTextContent());
+                                    break;
+                                case "material":
+                                    currentWeapon.setMaterial(tempElement.getTextContent());
+                                    break;
+                                case "ttc":
+                                    NodeList ttcChildren = tempElement.getChildNodes();
+                                    Gun.Weapon.Ttc tempTtc = new Gun.Weapon.Ttc();
+                                    for (int k = 0; j < ttcChildren.getLength(); i++) {
+                                        if (ttcChildren.item(j).getNodeType() == Node.ELEMENT_NODE) {
+                                            Element tempTtcChild = (Element) ttcChildren.item(j);
+                                            switch (tempElement.getTagName()) {
+                                                case "range":
+                                                    tempTtc.setRange(tempTtcChild.getTextContent());
+                                                    break;
+                                                case "sighting_range":
+                                                    tempTtc.setSightingRange(Integer.parseInt(tempTtcChild.getTextContent()));
+                                                    break;
+                                                case "yoke":
+                                                    tempTtc.setYoke(Boolean.parseBoolean(tempTtcChild.getTextContent()));
+                                                    break;
+                                                case "optics":
+                                                    tempTtc.setOptics(Boolean.parseBoolean(tempTtcChild.getTextContent()));
+                                                    break;
+                                            }
+                                        }
+                                    }
+                                    currentWeapon.setTtc(tempTtc);
+                                    break;
+                            }
+                        }
+                    }
+                    weapons.add(currentWeapon);
+                }
             }
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
@@ -37,7 +90,8 @@ public class MyDOMParser {
         return weapons;
     }
 
-    private NodeList getWeaponNodesFromFile(String pathToXmlFile) throws SAXException, ParserConfigurationException, IOException {
+    private NodeList getWeaponNodesFromFile(String pathToXmlFile) throws
+            SAXException, ParserConfigurationException, IOException {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = dbf.newDocumentBuilder();
         db.setErrorHandler(new ConsoleErrorHandler());

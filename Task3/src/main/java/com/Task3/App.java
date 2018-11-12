@@ -33,8 +33,9 @@ public class App
         File schemaLocation = new File(schemaName);
         System.out.println(ValidGunXml.isValid("data/data.xml", schemaName));*/
 
-        GunSAXBuilder gunSAXBuilder = new GunSAXBuilder();
-        gunSAXBuilder.buildListWeapon("data/data.xml");
-        System.out.println (gunSAXBuilder.getWeapons());
+      //  GunSAXBuilder gunSAXBuilder = new GunSAXBuilder();
+      //  gunSAXBuilder.buildListWeapon("data/data.xml");
+        MyDOMParser myDOMParser = new MyDOMParser();
+        System.out.println (myDOMParser.getPageListFromXml("data/data.xml"));
     }
 }
