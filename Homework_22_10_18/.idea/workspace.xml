@@ -5,11 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76d729db-9f1d-42ab-b167-732b133e3589" name="Default Changelist" comment="Initial commit with added MyStack and Tests">
-      <change afterPath="$PROJECT_DIR$/../Task3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/data/data_wrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/log/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyGunXmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyStAXParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/MyDOMParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/MyStAXParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/SAX/MySaxParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/ValidGunXmlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Server/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Server/ServerThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/data/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/data/data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/data/gun.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/data/gun.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ConsoleErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ConsoleErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyDOMParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyDOMParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/GunSAXBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/MySaxParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/WeaponHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/WeaponHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ValidGunXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ValidGunXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/generated/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/generated/Gun.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +47,7 @@
     <SUITE FILE_PATH="coverage/Homework_22_10_18$MyStackTest.ic" NAME="MyStackTest Coverage Results" MODIFIED="1540647576042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.Homework_22_10_18.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Homework_22_10_18$All_in_Homework_22_10_18.ic" NAME="All in Homework_22_10_18 Coverage Results" MODIFIED="1542241673833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Homework_22_10_18$App.ic" NAME="App Coverage Results" MODIFIED="1540743723179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.Homework_22_10_18.*</FILTER>
     </SUITE>
@@ -49,44 +74,47 @@
     <session id="1078030227">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="83" />
+          <entry key="class" value="5" />
+          <entry key="java" value="86" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="83" />
-          <entry key="XML" value="7" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="86" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="6907" />
+          <entry key="java" value="7033" />
           <entry key="txt" value="110" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6907" />
+          <entry key="JAVA" value="7033" />
           <entry key="PLAIN_TEXT" value="132" />
           <entry key="XML" value="11" />
         </counts>
@@ -102,145 +130,124 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6320692">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/LexerException.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/Lexer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="86" selection-start-line="86" selection-end-line="86" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/PostfixCalc.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-187">
-                  <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/InToPost.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Client/App.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#81#82#0" expanded="true" />
-                    <element signature="e#109#110#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/AppServer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/ServerThread.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="695">
-                  <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Server/Log.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Client/Client.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Client/Log.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/GuiClient.java">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/JabberClient.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="27" column="20" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding>
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server/AppServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server/ServerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Server/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="82" column="19" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/PostfixCalcTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/MyStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Client/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="82" lean-forward="true" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar!/org/jfree/data/xy/XYSeries.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6324">
+              <caret line="431" column="25" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -249,6 +256,7 @@
       <find>add</find>
       <find>readLine</find>
       <find>writ</find>
+      <find>equals</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -291,6 +299,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Server/AppServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Server/ServerThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/Client.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Client/ClientTest.java" />
       </list>
     </option>
   </component>
@@ -301,10 +310,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="width" value="1304" />
-    <option name="height" value="840" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
+    <option name="y" value="330" />
+    <option name="width" value="870" />
+    <option name="height" value="560" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -358,6 +368,15 @@
               <item name="Homework_22_10_18" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework_22_10_18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework_22_10_18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -373,17 +392,33 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Homework_22_10_18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework_22_10_18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Homework_22_10_18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework_22_10_18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541878110608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542242046763" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Igor/JavaExternal/Homework_11_10_18" />
@@ -394,6 +429,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Client" />
       <recent name="com.Homework_22_10_18" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -491,50 +527,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixCalcTest.parseInputWithDivideZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Homework_22_10_18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework_22_10_18" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Homework_22_10_18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Homework_22_10_18" />
-      <option name="MAIN_CLASS_NAME" value="com.Homework_22_10_18.PostfixCalcTest" />
-      <option name="METHOD_NAME" value="parseInputWithDivideZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.Homework_22_10_18 in Homework_22_10_18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homework_22_10_18" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Homework_22_10_18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Homework_22_10_18" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework_22_10_18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Client" />
+      <option name="MAIN_CLASS_NAME" value="Client.ClientTest" />
+      <option name="METHOD_NAME" value="xySeriesFromXMm_Doc_correctXySeries" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.com.Homework_22_10_18 in Homework_22_10_18" />
-      <item itemvalue="JUnit.PostfixCalcTest.parseInputWithDivideZero" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.AppServer" />
+      <item itemvalue="JUnit.ClientTest.xySeriesFromXMm_Doc_correctXySeries" />
+      <item itemvalue="JUnit.All in Homework_22_10_18" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.AppServer" />
+        <item itemvalue="JUnit.All in Homework_22_10_18" />
+        <item itemvalue="JUnit.ClientTest.xySeriesFromXMm_Doc_correctXySeries" />
         <item itemvalue="Application.AppServer" />
-        <item itemvalue="JUnit.com.Homework_22_10_18 in Homework_22_10_18" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -574,46 +604,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 23m 50s.xml">
-      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 24m 21s.xml">
-      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 24m 50s.xml">
-      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixCalcTest_parseInputWithDivideZero - 2018.10.28 at 23h 25m 06s.xml">
-      <configuration name="PostfixCalcTest.parseInputWithDivideZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 23h 25m 26s.xml">
-      <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.28 at 23h 27m 34s.xml">
-      <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.29 at 09h 00m 14s.xml">
-      <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.10.29 at 16h 40m 56s.xml">
-      <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.11.05 at 01h 21m 57s.xml">
       <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
     </history-entry>
     <history-entry file="com_Homework_22_10_18_in_Homework_22_10_18 - 2018.11.10 at 16h 53m 13s.xml">
       <configuration name="com.Homework_22_10_18 in Homework_22_10_18" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 21m 21s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 24m 05s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 25m 22s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 25m 46s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 26m 47s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 27m 23s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientTest_xySeriesFromXMm_Doc_correctXySeries - 2018.11.15 at 02h 27m 35s.xml">
+      <configuration name="ClientTest.xySeriesFromXMm_Doc_correctXySeries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Homework_22_10_18 - 2018.11.15 at 02h 28m 04s.xml">
+      <configuration name="All in Homework_22_10_18" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1988273" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16897655" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32583067" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -622,7 +652,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Analysis" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3290461" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.19185424" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.187567" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -630,7 +660,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.37785235" />
+      <window_info active="true" anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.13752665" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
@@ -774,16 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/MyStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/LexerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
@@ -795,13 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/PostfixCalcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -829,34 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/JabberClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/PostfixCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar!/org/jfree/data/xy/XYSeries.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="434" column="48" lean-forward="true" selection-start-line="434" selection-start-column="48" selection-end-line="434" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/Socket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -871,23 +856,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/PostfixCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/InToPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Calculator/Lexer.java">
+    <entry file="file://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/JabberClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="425">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/GuiClient.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/PostfixCalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Server/Calculator/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.0.19/jfreechart-1.0.19.jar!/org/jfree/data/xy/XYSeries.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6324">
+          <caret line="431" column="25" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server/AppServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="51">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -906,33 +956,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/GuiClient.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Server/Log.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Client/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="20" column="82" lean-forward="true" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="-57">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="176">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

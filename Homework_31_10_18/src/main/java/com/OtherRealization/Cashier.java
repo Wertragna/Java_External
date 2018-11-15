@@ -12,11 +12,9 @@ public class Cashier extends Thread {
 
     private BlockingQueue<Customer> customerQueue = new LinkedBlockingQueue<>();
     private Customer currentCustomer;
-    private Lock lock = new ReentrantLock();
 
     public Cashier(String name) {
         super(name);
-        //this.setDaemon(true);
         start();
     }
 
@@ -40,7 +38,6 @@ public class Cashier extends Thread {
     public void run() {
         while (true) {
             try {
-
                 currentCustomer = customerQueue.take();
                 System.out.println(this + " have start to serve " + currentCustomer);
                 this.sleep(100 * currentCustomer.getNumberOfTasks());

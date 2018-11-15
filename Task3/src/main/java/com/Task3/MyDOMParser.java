@@ -8,6 +8,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.XMLConstants;
+import javax.xml.bind.JAXBException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -18,14 +19,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.Task3.Constants.SHEMA_PATH;
-import static com.Task3.Constants.WEAPON;
+import static com.Task3.App.logger;
+import static com.Task3.Constants.SCHEMA_PATH;
 
-public class MyDOMParser {
-    public List<Gun.Weapon> getPageListFromXml(String pathToXmlFile) {
+
+public class MyDOMParser implements MyGunXmlParser {
+    public List<Gun.Weapon> getWeaponListFromXml(String pathToXmlFile) {
 
         List<Gun.Weapon> weapons = new ArrayList<>();
         try {
+            ValidGunXml.isValid(pathToXmlFile, SCHEMA_PATH);
             NodeList weaponsList = getWeaponNodesFromFile(pathToXmlFile);
             for (int i = 0; i < weaponsList.getLength(); i++) {
                 Node weaponNode = weaponsList.item(i);
@@ -53,10 +56,10 @@ public class MyDOMParser {
                                 case "ttc":
                                     NodeList ttcChildren = tempElement.getChildNodes();
                                     Gun.Weapon.Ttc tempTtc = new Gun.Weapon.Ttc();
-                                    for (int k = 0; j < ttcChildren.getLength(); i++) {
-                                        if (ttcChildren.item(j).getNodeType() == Node.ELEMENT_NODE) {
-                                            Element tempTtcChild = (Element) ttcChildren.item(j);
-                                            switch (tempElement.getTagName()) {
+                                    for (int k = 0; k < ttcChildren.getLength(); k++) {
+                                        if (ttcChildren.item(k).getNodeType() == Node.ELEMENT_NODE) {
+                                            Element tempTtcChild = (Element) ttcChildren.item(k);
+                                            switch (tempTtcChild.getTagName()) {
                                                 case "range":
                                                     tempTtc.setRange(tempTtcChild.getTextContent());
                                                     break;
@@ -80,12 +83,8 @@ public class MyDOMParser {
                     weapons.add(currentWeapon);
                 }
             }
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
-            e.printStackTrace();
+        } catch (ParserConfigurationException | IOException | SAXException | JAXBException e) {
+            logger.error(e.getMessage());
         }
         return weapons;
     }
@@ -96,12 +95,11 @@ public class MyDOMParser {
         DocumentBuilder db = dbf.newDocumentBuilder();
         db.setErrorHandler(new ConsoleErrorHandler());
         SchemaFactory sf = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
-        Schema s = sf.newSchema(new File(SHEMA_PATH));
+        Schema s = sf.newSchema(new File(SCHEMA_PATH));
         dbf.setValidating(false);
         dbf.setSchema(s);
         Document xmlDoc = db.parse(new File(pathToXmlFile));
         xmlDoc.getDocumentElement().normalize();
-        return xmlDoc.getElementsByTagName(WEAPON);
+        return xmlDoc.getElementsByTagName("weapon");
     }
-
 }

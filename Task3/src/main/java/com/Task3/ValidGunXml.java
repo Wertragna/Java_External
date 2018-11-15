@@ -15,23 +15,15 @@ import java.io.File;
 import java.io.IOException;
 
 public class ValidGunXml {
-    public static boolean isValid(String fileName,String schemaName){
+    public static void isValid(String fileName, String schemaName) throws IOException, SAXException, JAXBException {
         String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
         SchemaFactory factory = SchemaFactory.newInstance(language);
         File schemaLocation = new File(schemaName);
         Schema schema = null;
-        try {
-            schema = factory.newSchema(schemaLocation);
-            Validator validator = schema.newValidator();
-            Source source = new StreamSource(fileName);
-            JAXBContext jc = JAXBContext.newInstance(Gun.class);
-            validator.validate(source);
-        }
-        catch (SAXException |IOException |JAXBException e) {
-            e.printStackTrace();
-            return false;
-        }
-        return true;
+        schema = factory.newSchema(schemaLocation);
+        Validator validator = schema.newValidator();
+        Source source = new StreamSource(fileName);
+        JAXBContext jc = JAXBContext.newInstance(Gun.class);
+        validator.validate(source);
     }
-
 }

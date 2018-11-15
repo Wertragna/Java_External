@@ -10,6 +10,7 @@ package com.Task3.generated;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -171,6 +172,24 @@ public class Gun {
         "ttc"
     })
     public static class Weapon {
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Weapon weapon = (Weapon) o;
+            return Objects.equals(model, weapon.model) &&
+                    Objects.equals(handly, weapon.handly) &&
+                    Objects.equals(origin, weapon.origin) &&
+                    Objects.equals(material, weapon.material) &&
+                    Objects.equals(ttc, weapon.ttc) &&
+                    Objects.equals(id, weapon.id);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(model, handly, origin, material, ttc, id);
+        }
+
         @Override
         public String toString() {
             return "Weapon{" +
@@ -471,6 +490,21 @@ public class Gun {
                 this.optics = value;
             }
 
+            @Override
+            public boolean equals(Object o) {
+                if (this == o) return true;
+                if (o == null || getClass() != o.getClass()) return false;
+                Ttc ttc = (Ttc) o;
+                return sightingRange == ttc.sightingRange &&
+                        yoke == ttc.yoke &&
+                        optics == ttc.optics &&
+                        Objects.equals(range, ttc.range);
+            }
+
+            @Override
+            public int hashCode() {
+                return Objects.hash(range, sightingRange, yoke, optics);
+            }
         }
 
     }

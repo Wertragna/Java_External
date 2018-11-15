@@ -44,7 +44,7 @@ public class WeaponHandler extends DefaultHandler {
             isRange = true;
         } else if (qName.equals("optics")) {
             isOptics = true;
-        } else if (qName.equals("model")) {
+        } else if (qName.equals("sighting_range")) {
             isSightingRange= true;
         } else if (qName.equals("yoke")) {
             isYoke = true;
@@ -88,7 +88,8 @@ public class WeaponHandler extends DefaultHandler {
                 break;
             case "material":
                 if (isMaterial) {
-                    current.setModel(new String(ch, start, length));
+                    String a = new String(ch, start, length);
+                    current.setMaterial(new String(ch, start, length));
                     isMaterial = false;
                 }
                 break;
@@ -100,7 +101,6 @@ public class WeaponHandler extends DefaultHandler {
                 break;
             case "sighting_range":
                 if (isSightingRange) {
-
                     ttc.setSightingRange(Integer.parseInt(new String(ch, start, length)));
                     isSightingRange = false;
                 }

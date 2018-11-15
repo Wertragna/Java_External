@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0768ef1a-6c9d-4037-ab34-8b02af723e0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/Client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data_wrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Task3/MyGunXmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Task3/MyStAXParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Task3/MyDOMParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Task3/MyStAXParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Task3/SAX/MySaxParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Task3/ValidGunXmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Server/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Server/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Server/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/Homework_31_10_18/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_31_10_18/target/classes/com/OtherRealization/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gun.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/data/gun.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/ConsoleErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/ConsoleErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/MyDOMParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/MyDOMParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/SAX/GunSAXBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/SAX/MySaxParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/ValidGunXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/ValidGunXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Task3/generated/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Task3/generated/Gun.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Task3$com_Task3_in_Task3.ic" NAME="com.Task3 in Task3 Coverage Results" MODIFIED="1542286036053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Task3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Task3$MyDOMParserTest.ic" NAME="MyDOMParserTest Coverage Results" MODIFIED="1542240158443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Task3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Task3$MyDOMParserTest_getWeaponListFromXml_correctXML_correctList.ic" NAME="MyDOMParserTest.getWeaponListFromXml_correctXML_correctList Coverage Results" MODIFIED="1542236560139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Task3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Task3$App.ic" NAME="App Coverage Results" MODIFIED="1541977390625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.Task3.SAX.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="300" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1347749572">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="93" />
+          <entry key="log" value="2" />
+          <entry key="vmoptions" value="3" />
+          <entry key="xml" value="26" />
+          <entry key="xsd" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="93" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="86" />
+          <entry key="java" value="4094" />
+          <entry key="txt" value="141" />
+          <entry key="vmoptions" value="1" />
+          <entry key="xml" value="138" />
+          <entry key="xsd" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4094" />
+          <entry key="PLAIN_TEXT" value="228" />
+          <entry key="XML" value="200" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/ValidGunXml.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="17" column="108" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/SAX/MySaxParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/MyDOMParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="91" column="43" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Task3/MyDOMParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-289">
+              <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/generated/Gun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/generated/ObjectFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/data.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/gun.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="74" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>close</find>
+      <find>Ttc</find>
+      <find>setOptics</find>
+      <find>weapon</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/GunSAXBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/WeaponHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/ShemaConstantPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/generated/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyStAXParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/ValidGunXml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/MyGunXmlParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/SAX/GunSAXBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/generated/Gun.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Task3/MyStAXParserTest.java" />
+        <option value="$PROJECT_DIR$/data/data.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Task3/MyDOMParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/NameOfFieldsXml.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/data/data_wrong.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Task3/ValidGunXmlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/ConsoleErrorHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/App.java" />
+        <option value="$PROJECT_DIR$/data/gun.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/SAX/MySaxParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Task3/SAX/MySaxParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/MyStAXParser.java" />
+        <option value="$PROJECT_DIR$/log/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Task3/MyDOMParser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
+    <option name="y" value="330" />
+    <option name="width" value="870" />
+    <option name="height" value="560" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="SAX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
+              <item name="SAX" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542318350382" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Task3" />
+      <recent name="com.Task3.SAX" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.Task3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - UNICYB\java_external_2018\Task3\src\test" />
+      <recent name="D:\OneDrive - UNICYB\java_external_2018\Task3\src\test\java" />
+      <recent name="D:\OneDrive - UNICYB\java_external_2018\Task3\src\main\java\com\Task3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive - UNICYB\java_external_2018\Task3\data" />
+      <recent name="D:\OneDrive - UNICYB\java_external_2018\Task3\src\test\dataForTest" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.Task3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Task3.App" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDOMParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Task3" />
+      <option name="MAIN_CLASS_NAME" value="com.Task3.MyDOMParserTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDOMParserTest.getWeaponListFromXml_correctXML_correctList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Task3" />
+      <option name="MAIN_CLASS_NAME" value="com.Task3.MyDOMParserTest" />
+      <option name="METHOD_NAME" value="getWeaponListFromXml_correctXML_correctList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidGunXmlTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Task3" />
+      <option name="MAIN_CLASS_NAME" value="com.Task3.ValidGunXmlTest" />
+      <option name="METHOD_NAME" value="isValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.Task3 in Task3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Task3" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyDOMParserTest.getWeaponListFromXml_correctXML_correctList" />
+      <item itemvalue="JUnit.MyDOMParserTest" />
+      <item itemvalue="JUnit.com.Task3 in Task3" />
+      <item itemvalue="JUnit.ValidGunXmlTest.isValid" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.com.Task3 in Task3" />
+        <item itemvalue="JUnit.MyDOMParserTest" />
+        <item itemvalue="JUnit.ValidGunXmlTest.isValid" />
+        <item itemvalue="JUnit.MyDOMParserTest.getWeaponListFromXml_correctXML_correctList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0768ef1a-6c9d-4037-ab34-8b02af723e0b" name="Default Changelist" comment="" />
+      <created>1541870664488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541870664488</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init commit for Task 3">
+      <created>1541886041225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541886041226</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix xsd file">
+      <created>1541886782489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541886782489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="regenerated class from xsd">
+      <created>1541887386929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541887386929</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed">
+      <created>1541965313353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541965313353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 00h 09m 13s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 01h 02m 34s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDOMParserTest_getWeaponListFromXml_correctXML_correctList - 2018.11.15 at 01h 02m 49s.xml">
+      <configuration name="MyDOMParserTest.getWeaponListFromXml_correctXML_correctList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidGunXmlTest_isValid - 2018.11.15 at 02h 00m 32s.xml">
+      <configuration name="ValidGunXmlTest.isValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 02h 00m 58s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyDOMParserTest - 2018.11.15 at 02h 02m 48s.xml">
+      <configuration name="MyDOMParserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 02h 03m 23s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 14h 46m 57s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 14h 47m 43s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_Task3_in_Task3 - 2018.11.15 at 15h 04m 17s.xml">
+      <configuration name="com.Task3 in Task3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16505896" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.53376204" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290461" />
+      <window_info anchor="bottom" id="Analysis" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.39978564" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.0" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init comit for Task 3" />
+    <MESSAGE value="init commit for Task 3" />
+    <MESSAGE value="fix xsd file" />
+    <MESSAGE value="regenerated class from xsd" />
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponEnum.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Task3/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/org/w3c/dom/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="228" column="14" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/org/w3c/dom/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/org/w3c/dom/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="721" column="18" selection-start-line="721" selection-start-column="18" selection-end-line="721" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9877">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/dataForTest/data.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/NameOfFieldsXml.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data_wrong.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Task3/MyStAXParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Task3/ValidGunXmlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Task3/SAX/MySaxParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/MyGunXmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/MyStAXParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="41" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logfile.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/ConsoleErrorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/gun.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="74" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/ValidGunXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="17" column="108" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/SAX/MySaxParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/SAX/WeaponHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Task3/MyDOMParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/generated/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/generated/Gun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Task3/MyDOMParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="91" column="43" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Task3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

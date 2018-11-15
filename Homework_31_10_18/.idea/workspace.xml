@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50890393-48e9-49fa-aae5-fe0a545e0dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyDOMParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/WeaponHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/test/java/Client/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/data/data_wrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/log/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyGunXmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyStAXParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/MyDOMParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/MyStAXParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/SAX/MySaxParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task3/src/test/java/com/Task3/ValidGunXmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/src/main/java/Server/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Server/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_22_10_18/target/classes/Server/ServerThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Homework_31_10_18/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Homework_31_10_18/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/OtherRealization/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/OtherRealization/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/data/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/data/data.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/data/gun.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/data/gun.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ConsoleErrorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ConsoleErrorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyDOMParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/MyDOMParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/GunSAXBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/MySaxParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/WeaponHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/SAX/WeaponHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ValidGunXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/ValidGunXml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/generated/Gun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/main/java/com/Task3/generated/Gun.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,8 +81,8 @@
     <session id="-1918000584">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -71,7 +94,7 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,13 +111,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="505" />
+          <entry key="java" value="507" />
           <entry key="txt" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="505" />
+          <entry key="JAVA" value="507" />
           <entry key="PLAIN_TEXT" value="83" />
         </counts>
       </usages-collector>
@@ -111,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="408">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
+            <state relative-caret-position="487">
               <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
             </state>
           </provider>
@@ -135,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="119">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,8 +210,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="228">
+              <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#697#698#0" expanded="true" />
@@ -245,17 +268,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/OtherRealization/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/OtherRealization/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/Cashier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="496" />
-    <option name="width" value="1304" />
-    <option name="height" value="840" />
+    <option name="x" value="36" />
+    <option name="y" value="330" />
+    <option name="width" value="870" />
+    <option name="height" value="560" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,6 +286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,13 +369,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541878110526" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542318328587" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -497,9 +520,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,7 +530,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45016077" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53376204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -590,26 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6392">
@@ -642,18 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8279">
@@ -667,8 +657,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Homework_31_10_18/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="487">
           <caret line="39" column="59" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/OtherRealization/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

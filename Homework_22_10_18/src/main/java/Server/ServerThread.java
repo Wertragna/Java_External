@@ -64,7 +64,7 @@ public class ServerThread extends Thread{
         }
     }
 
-    public Double calculate(String funk, int value){
+    public static Double calculate(String funk, int value){
         funk= funk.replace("x",Integer.toString(value));
         InToPost inToPost = new InToPost(funk);
         PostfixCalc postfixCalc = new PostfixCalc(inToPost.doTrans());

@@ -2,7 +2,6 @@
 <gun>
     <weapon id="ID-2">
         <model>model3</model>
-        <handly>one</handly>
         <origin>China</origin>
         <material>metal</material>werge
         <ttc>
@@ -15,7 +14,6 @@
     <weapon id="ID-1">
         <model>model1</model>egw
         <handly>one</handly>gw
-        <origin>Ukraine</origin>
         <material>materialX</material>
         <ttc>
             <range>close</range>ggwfgf

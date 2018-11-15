@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xs:element name="gun">
-        <xs:complexType>
+        <xs:complexType >
             <xs:sequence>
                 <xs:element name="weapon"  maxOccurs="unbounded">
-                    <xs:complexType>
+                    <xs:complexType mixed="true">
                         <xs:sequence>
                             <xs:element type="xs:string" name="model"/>
-                            <xs:element type="xs:string" name="handly"/>
+                            <xs:element  name="handly">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="one"/>
+                                    <xs:enumeration value="two"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                            </xs:element>
                             <xs:element type="xs:string" name="origin"/>
                             <xs:element type="xs:string" name="material"/>
                             <xs:element name="ttc">
-                                <xs:complexType>
+                                <xs:complexType mixed="true">
                                     <xs:sequence>
                                         <xs:element name="range">
                                             <xs:simpleType>

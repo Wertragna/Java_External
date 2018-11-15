@@ -80,7 +80,7 @@ public class Client {
                 true);
     }
 
-    private static XYSeries xySeriesFromXMm(Document doc,String expression){
+    static XYSeries xySeriesFromXMm(Document doc,String expression){
         XYSeries series = new XYSeries(expression);
         Element root = doc.getDocumentElement();
         if (root.getTagName().equals("Plot")){
