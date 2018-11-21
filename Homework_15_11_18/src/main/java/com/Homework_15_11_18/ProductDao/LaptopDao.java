@@ -1,7 +1,8 @@
 package com.Homework_15_11_18.ProductDao;
 
-import com.Homework_15_11_18.DBCPDataSource;
+import com.Homework_15_11_18.ConnectionPool.DBCPDataSource;
 import com.Homework_15_11_18.ProductModel.Laptop;
+import com.Homework_15_11_18.ProductModel.Product;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -60,6 +61,45 @@ public class LaptopDao  implements Dao<Integer, Laptop> {
             changeNumber = statement.executeUpdate();
         }catch (SQLException e){
             logger.error(e.getMessage());
+        }
+        return changeNumber>0;
+    }
+
+    public boolean createAsNewProduct(Laptop laptop, Product product){
+        int changeNumber = 0;
+        try(Connection con=DBCPDataSource.getConnection();
+            PreparedStatement productInsertStatement = con.prepareStatement("INSERT INTO product(maker, model, type) VALUE (?,?,?)");
+            PreparedStatement laptopInsertStatement = con.prepareStatement("INSERT INTO laptop(model, speed,ram,hd,price,screen ) VALUE (?,?,?,?,?,?)")){
+
+            if(!laptop.getModel().equals(product.getModel()) || !product.getType().equals("Laptop"))
+                throw new IllegalArgumentException("Wrong data:product and printer consistency");
+
+            con.setAutoCommit(false);
+
+            productInsertStatement.setString(1, product.getMaker());
+            productInsertStatement.setString(2, product.getModel());
+            productInsertStatement.setString(3, product.getType());
+
+            laptopInsertStatement.setString(1,laptop.getModel());
+            laptopInsertStatement.setShort(2,laptop.getSpeed());
+            laptopInsertStatement.setShort(3, laptop.getRam());
+            laptopInsertStatement.setDouble(4, laptop.getHd());
+            laptopInsertStatement.setBigDecimal(5, laptop.getPrice());
+            laptopInsertStatement.setByte(6, laptop.getScreen());
+
+            try {
+                productInsertStatement.executeUpdate();
+                changeNumber = laptopInsertStatement.executeUpdate();
+                con.commit();
+            } catch (SQLException e) {
+                logger.error(e.getMessage());
+                con.rollback();
+            }
+
+            con.setAutoCommit(true);
+        }catch (SQLException | IllegalArgumentException e){
+            logger.error(e.getMessage());
+
         }
         return changeNumber>0;
     }

@@ -1,7 +1,6 @@
 package com.Homework_15_11_18.ProductDao;
 
-import com.Homework_15_11_18.DBCPDataSource;
-import com.Homework_15_11_18.ProductModel.Printer;
+import com.Homework_15_11_18.ConnectionPool.DBCPDataSource;
 import com.Homework_15_11_18.ProductModel.Product;
 
 import java.sql.Connection;

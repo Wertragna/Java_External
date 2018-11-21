@@ -1,6 +1,6 @@
 package com.Homework_15_11_18.ProductDao;
 
-import com.Homework_15_11_18.DBCPDataSource;
+import com.Homework_15_11_18.ConnectionPool.DBCPDataSource;
 import com.Homework_15_11_18.ProductModel.Printer;
 
 import java.sql.Connection;
@@ -13,6 +13,7 @@ import java.util.List;
 import static com.Homework_15_11_18.App.logger;
 
 public class PrinterDao implements Dao<Integer, Printer> {
+
 
 
     @Override
@@ -68,6 +69,7 @@ public class PrinterDao implements Dao<Integer, Printer> {
     public Printer getById(Integer integer) {
         return null;
     }
+
     private Printer createPrinter(ResultSet resultSet) throws SQLException {
         Printer printer;
         printer = new Printer();

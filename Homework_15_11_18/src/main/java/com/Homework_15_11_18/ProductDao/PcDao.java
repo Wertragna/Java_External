@@ -1,6 +1,6 @@
 package com.Homework_15_11_18.ProductDao;
 
-import com.Homework_15_11_18.DBCPDataSource;
+import com.Homework_15_11_18.ConnectionPool.DBCPDataSource;
 import com.Homework_15_11_18.ProductModel.Pc;
 
 import java.sql.Connection;
@@ -72,9 +72,9 @@ public class PcDao implements Dao<Integer, Pc> {
         Pc resultPc= new Pc();
         resultPc.setCode(resultSet.getInt(1));
         resultPc.setModel(resultSet.getString(2));
-        resultPc.setSpeed(resultSet.getByte(3));
-        resultPc.setRam(resultSet.getByte(4));
-        resultPc.setHd(resultSet.getInt(5));
+        resultPc.setSpeed(resultSet.getShort(3));
+        resultPc.setRam(resultSet.getShort(4));
+        resultPc.setHd(resultSet.getDouble(5));
         resultPc.setCd(resultSet.getString(6));
         resultPc.setPrice(resultSet.getBigDecimal(7));
         return resultPc;
