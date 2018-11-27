@@ -1,0 +1,9 @@
+<Context antiJARLocking="true" path="/FirstJspServletJsp">
+    <Resource name="jdbc/dbgame" author="Container"
+              type="javax.sql.DataSource" maxActive="32" maxIdle="8"
+              maxWait="10000"
+              username="root"
+              password="root"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/labor_sql"/>
+</Context>
